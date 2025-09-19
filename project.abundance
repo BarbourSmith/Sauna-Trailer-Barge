@@ -17,7 +17,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "f1eaa9ea-a495-4ae1-a1ec-c3596b7c1d28",
+                    "ioValue": "d990a971-c871-4542-985b-39a091b85a13",
                     "currentEquation": null
                 }
             ],
@@ -1806,8 +1806,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Sauna-Trailer",
-            "x": 0.5,
-            "y": 0.6,
+            "x": 0.19907407407407407,
+            "y": 0.7270194986072424,
             "uniqueID": "29e8b545-8c3d-4953-a0ec-b1996bb80e71",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -22249,34 +22249,118 @@
                     "source": "https://www.lowes.com/pd/RELIABILT-5-375-in-x-12-ft-Unfinished-Cedar-Tongue-and-Groove-Wall-Plank-1-Pack-Covers-5-38-sq-ft/1000456695?user=shopping&feed=yes&gad_source=1&gad_campaignid=21218170251&gclid=CjwKCAjwvO7CBhAqEiwA9q2YJdk_r7n3FB7d_4rSmPHAxLzIKqJX_qTlfnD14cEg7dvBOpAPxnaE2hoCqocQAvD_BwE"
                 }
             ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.419973544973545,
+            "y": 0.6852367688022285,
+            "uniqueID": "95f1bd84-ddaa-46ff-8f69-c1df266d2ba0",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "29e8b545-8c3d-4953-a0ec-b1996bb80e71",
+                    "currentEquation": null
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 600,
+                    "currentEquation": "600"
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 250,
+                    "currentEquation": "250"
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.6792328042328042,
+            "y": 0.7298050139275767,
+            "uniqueID": "d990a971-c871-4542-985b-39a091b85a13",
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": "f1eaa9ea-a495-4ae1-a1ec-c3596b7c1d28"
+                },
+                {
+                    "name": "Shape 2",
+                    "ioValue": "95f1bd84-ddaa-46ff-8f69-c1df266d2ba0"
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
         }
     ],
     "allConnectors": [
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
+            "ap2Name": "Shape 1",
             "ap1ID": "f1eaa9ea-a495-4ae1-a1ec-c3596b7c1d28",
-            "ap2ID": "c53f46b4-3e6f-4449-813d-0db6406dd5a5"
+            "ap2ID": "d990a971-c871-4542-985b-39a091b85a13"
         },
         {
             "ap1Name": "geometry or number",
             "ap2Name": "Shape 1",
             "ap1ID": "725d69c7-0628-49a2-870e-b6afcdb8c84d",
             "ap2ID": "f1eaa9ea-a495-4ae1-a1ec-c3596b7c1d28"
+        },
+        {
+            "ap1Name": "geometry or number",
+            "ap2Name": "geometry",
+            "ap1ID": "29e8b545-8c3d-4953-a0ec-b1996bb80e71",
+            "ap2ID": "95f1bd84-ddaa-46ff-8f69-c1df266d2ba0"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 2",
+            "ap1ID": "95f1bd84-ddaa-46ff-8f69-c1df266d2ba0",
+            "ap2ID": "d990a971-c871-4542-985b-39a091b85a13"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap1ID": "d990a971-c871-4542-985b-39a091b85a13",
+            "ap2ID": "c53f46b4-3e6f-4449-813d-0db6406dd5a5"
         }
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": [
         {
+            "BOMitemName": "Wood Stove",
+            "numberNeeded": 5,
+            "costUSD": 750,
+            "source": "https://portland.craigslist.org/clc/spo/d/mulino-canvas-wall-tent-stove/7827117943.html"
+        },
+        {
+            "BOMitemName": "Quick Release Bolt",
+            "numberNeeded": 36,
+            "costUSD": 180,
+            "source": "https://www.amazon.com/dp/B0CSMGRBN6"
+        },
+        {
             "BOMitemName": "96 inch 2x6",
-            "numberNeeded": 72,
-            "costUSD": 1488.9600000000003,
+            "numberNeeded": 90,
+            "costUSD": 1861.2000000000014,
             "source": "https://www.homedepot.com/p/Trex-Enhance-Naturals-1-in-x-6-in-x-8-ft-Rocky-Harbor-Square-Edge-Composite-Deck-Board-RH010608E2S01/310567552"
         },
         {
+            "BOMitemName": "Cedar Shiplap",
+            "numberNeeded": 304,
+            "costUSD": 0,
+            "source": "https://www.lowes.com/pd/RELIABILT-5-375-in-x-12-ft-Unfinished-Cedar-Tongue-and-Groove-Wall-Plank-1-Pack-Covers-5-38-sq-ft/1000456695?user=shopping&feed=yes&gad_source=1&gad_campaignid=21218170251&gclid=CjwKCAjwvO7CBhAqEiwA9q2YJdk_r7n3FB7d_4rSmPHAxLzIKqJX_qTlfnD14cEg7dvBOpAPxnaE2hoCqocQAvD_BwE"
+        },
+        {
             "BOMitemName": "55 Galon Plastic Drum",
-            "numberNeeded": 120,
+            "numberNeeded": 140,
             "costUSD": 0,
             "source": "www.example.com"
         }

@@ -2,8 +2,11 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|96 inch 2x6|72|$1488.9600000000003|https://www.homedepot.com/p/Trex-Enhance-Naturals-1-in-x-6-in-x-8-ft-Rocky-Harbor-Square-Edge-Composite-Deck-Board-RH010608E2S01/310567552|
-|55 Galon Plastic Drum|120|$0|www.example.com|
-|Total: |192|$1488.9600000000003| |
+|Wood Stove|5|$750|https://portland.craigslist.org/clc/spo/d/mulino-canvas-wall-tent-stove/7827117943.html|
+|Quick Release Bolt|36|$180|[Amazon](https://www.amazon.com/dp/B0CSMGRBN6?tag=maslowcnc01-20)|
+|96 inch 2x6|90|$1861.2000000000014|https://www.homedepot.com/p/Trex-Enhance-Naturals-1-in-x-6-in-x-8-ft-Rocky-Harbor-Square-Edge-Composite-Deck-Board-RH010608E2S01/310567552|
+|Cedar Shiplap|304|$0|https://www.lowes.com/pd/RELIABILT-5-375-in-x-12-ft-Unfinished-Cedar-Tongue-and-Groove-Wall-Plank-1-Pack-Covers-5-38-sq-ft/1000456695?user=shopping&feed=yes&gad_source=1&gad_campaignid=21218170251&gclid=CjwKCAjwvO7CBhAqEiwA9q2YJdk_r7n3FB7d_4rSmPHAxLzIKqJX_qTlfnD14cEg7dvBOpAPxnaE2hoCqocQAvD_BwE|
+|55 Galon Plastic Drum|140|$0|www.example.com|
+|Total: |575|$2791.2000000000016| |
 
- 3xCOG MSRP: $4466.88
+ 3xCOG MSRP: $8373.60
