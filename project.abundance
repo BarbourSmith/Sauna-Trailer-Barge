@@ -13,13 +13,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "c53f46b4-3e6f-4449-813d-0db6406dd5a5",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "d990a971-c871-4542-985b-39a091b85a13",
-                    "currentEquation": null
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Move",
@@ -45,8 +39,8 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 375,
-                    "currentEquation": "375"
+                    "ioValue": 400,
+                    "currentEquation": "400"
                 }
             ]
         },
