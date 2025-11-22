@@ -28,8 +28,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 36,
-          "currentEquation": "18*2"
+          "ioValue": 137.6,
+          "currentEquation": "18*2+4*25.4"
         }
       ]
     },
