@@ -2,16 +2,11 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Lath|2|$0.00|Home Depot|
-|Door Hinge|1|$12.00|https://amzn.to/3IZHDux|
-|End Cap|1|$12.00|https://amzn.to/3KdKJM2|
-|Wood Stove|1|$150.00|https://portland.craigslist.org/clc/spo/d/mulino-canvas-wall-tent-stove/7827117943.html|
-|Quick Release Bolt|6|$30.00|[Amazon](https://www.amazon.com/dp/B0CSMGRBN6?tag=maslowcnc01-20)|
-|96 inch 2x6|16|$330.88|https://www.homedepot.com/p/Trex-Enhance-Naturals-1-in-x-6-in-x-8-ft-Rocky-Harbor-Square-Edge-Composite-Deck-Board-RH010608E2S01/310567552|
-|Cedar Shiplap|74|$0.00|https://www.lowes.com/pd/RELIABILT-5-375-in-x-12-ft-Unfinished-Cedar-Tongue-and-Groove-Wall-Plank-1-Pack-Covers-5-38-sq-ft/1000456695?user=shopping&feed=yes&gad_source=1&gad_campaignid=21218170251&gclid=CjwKCAjwvO7CBhAqEiwA9q2YJdk_r7n3FB7d_4rSmPHAxLzIKqJX_qTlfnD14cEg7dvBOpAPxnaE2hoCqocQAvD_BwE|
-|name|4|$0.00|www.example.com|
-|Floor Tile|3|$0.75|www.example.com|
-|5x14mm wood screw|10|$0.10|www.example.com|
-|LED Light Strip|2|$0.00|www.example.com|
-|55 Galon Plastic Drum|20|$0.00|www.example.com|
-|Total: |140|$535.73| |
+|New Item|121|$0.00||
+|Floor Tile|3|$0.00||
+|5x14mm wood screw|10|$0.00||
+|LED Light Strip|2|$0.00||
+|Lath|2|$0.00||
+|Door Hinge|2|$0.00||
+|End Cap|1|$0.00||
+|Total: |141|$0.00| |
