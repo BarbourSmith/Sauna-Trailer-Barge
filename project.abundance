@@ -33202,6 +33202,319 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.3333333333333333,
+      "y": 0.883008356545961,
+      "uniqueID": "id-31946",
+      "name": "Supports",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-31948"
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "x": 0.07341269841269842,
+          "y": 0.4094707520891365,
+          "uniqueID": "id-31997",
+          "name": "4x6",
+          "ioValues": [
+            {
+              "name": "Length",
+              "ioValue": 96,
+              "currentEquation": "12*8"
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-31990"
+            },
+            {
+              "atomType": "Rectangle",
+              "x": 0.11450381679389314,
+              "y": 0.8982456140350877,
+              "uniqueID": "id-31991",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 101.6,
+                  "currentEquation": "4*25.4"
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 152.39999999999998,
+                  "currentEquation": "6*25.4"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-31992",
+              "name": "Length",
+              "type": "number"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.2366412213740458,
+              "y": 0.5824561403508772,
+              "uniqueID": "id-31993",
+              "name": "L*25.4",
+              "ioValues": [
+                {
+                  "name": "L",
+                  "ioValue": 96
+                }
+              ],
+              "currentEquation": "L*25.4"
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.5012722646310432,
+              "y": 0.8280701754385965,
+              "uniqueID": "id-31994",
+              "ioValues": [
+                {
+                  "name": "height",
+                  "ioValue": 2438.3999999999996
+                }
+              ]
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.33796296296296297,
+              "y": 0.22005571030640667,
+              "uniqueID": "id-31995",
+              "name": "L + “ 2x6”",
+              "ioValues": [
+                {
+                  "name": "L",
+                  "ioValue": 96
+                }
+              ],
+              "currentEquation": "L + “ 2x6”"
+            },
+            {
+              "atomType": "Add-BOM-Tag",
+              "x": 0.542989417989418,
+              "y": 0.37604456824512533,
+              "uniqueID": "id-31996",
+              "name": "Add BOM Tag",
+              "ioValues": [
+                {
+                  "name": "Item Name",
+                  "ioValue": "96 2x6",
+                  "currentEquation": "New Item"
+                },
+                {
+                  "name": "Number Needed",
+                  "ioValue": 1
+                },
+                {
+                  "name": "Cost (USD)",
+                  "ioValue": 0
+                },
+                {
+                  "name": "Source Link",
+                  "ioValue": ""
+                }
+              ],
+              "BOMitem": {
+                "BOMitemName": "96 2x6",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": ""
+              }
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-31991",
+              "ap2ID": "id-31994"
+            },
+            {
+              "ap2Name": "L",
+              "ap1ID": "id-31992",
+              "ap2ID": "id-31993"
+            },
+            {
+              "ap2Name": "L",
+              "ap1ID": "id-31992",
+              "ap2ID": "id-31995"
+            },
+            {
+              "ap2Name": "height",
+              "ap1ID": "id-31993",
+              "ap2ID": "id-31994"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-31994",
+              "ap2ID": "id-31996"
+            },
+            {
+              "ap2Name": "Item Name",
+              "ap1ID": "id-31995",
+              "ap2ID": "id-31996"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-31996",
+              "ap2ID": "id-31990"
+            }
+          ],
+          "parentRepo": {
+            "lastFoundGit": "2025-12-17T15:47:14.799Z",
+            "privateRepo": false,
+            "repoName": "4x6",
+            "dateCreated": "2025-11-22T04:00:36Z",
+            "readMe": "https://raw.githubusercontent.com/BarbourSmith/4x6/master/README.md?sanitize=true",
+            "yyyy": 2025,
+            "topMoleculeID": "id-27246",
+            "githubMoleculesUsed": [],
+            "html_url": "https://github.com/BarbourSmith/4x6",
+            "topics": [],
+            "parentRepo": null,
+            "forks": 0,
+            "dateModified": "739579",
+            "ranking": 0,
+            "searchField": "4x6 barboursmith a 4”x6” board molded in mm. the length is entered in inches and it will be added to the bill of materials ",
+            "owner": "BarbourSmith",
+            "description": "A 4”x6” board molded in mm. The length is entered in inches and it will be added to the bill of materials",
+            "contentURL": "https://raw.githubusercontent.com/BarbourSmith/4x6/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/BarbourSmith/4x6/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "MM",
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.20171957671957674,
+          "y": 0.5626740947075208,
+          "uniqueID": "id-32020",
+          "ioValues": [
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 90,
+              "currentEquation": "90"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "x": 0.4338624338624339,
+          "y": 0.637883008356546,
+          "uniqueID": "id-32035",
+          "name": "Above",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-32031"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-32032",
+              "name": "B",
+              "type": "geometry"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
+              "uniqueID": "id-32033",
+              "name": "A",
+              "type": "geometry"
+            },
+            {
+              "atomType": "Code",
+              "x": 0.5429515418502203,
+              "y": 0.6239554317548747,
+              "uniqueID": "id-32034",
+              "codeVersion": 1,
+              "code": "\n      Inputs = [\n       {inputName: \"A\", type: \"geometry\", defaultValue: null},\n        {inputName: \"B\", type: \"geometry\", defaultValue: null}\n      ]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n\n      //Takes the address and gets the shape from the library\n      let importedShapeA = library[A]\n\n      let boundsA = await GetBounds(A);\n      let A_minZ = boundsA.min[2];\n\n      let B_maxZ = 0;\n      if(B){\n          let boundsB = await GetBounds(B);\n          console.log(\"Bounding Box B:  \");\n          console.log(boundsB);\n          B_maxZ  = boundsB.max[2];\n      }\n\n     let translationZ = B_maxZ - A_minZ;\n     \n      let movedOutput = await Move(A, 0, 0, translationZ);\n\n      return movedOutput;\n\n      // //We can also create a new shape from scratch\n      // let createdRectangle = replicad.drawRectangle(5,7)\n      // //This is the plane we are going to put our new shape on\n      // const newPlane = new replicad.Plane().pivot(0, 'Y');\n      // //And we extrude the shape to make it 3D\n      // let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n\n      // //For our new geometry we need to define the tags, color, plane, etc\n      // let shape2 = {\n      //     geometry: [createdShape],\n      //     tags: [\"aTag\"],\n      //     color: '#A3CE5B',\n      //     plane: newPlane,\n      //     bom: []\n      // }\n\n      // //Then we can return our created shape in just the same way\n      // //return shape2\n\n      // //If we want to return both shapes at once, we can create an assembly with them\n      // let anAssembly = {\n      //   geometry: [shape1, shape2],\n      //   tags: [\"aNewTag\"],\n      //   color: '#A3CF5B',\n      //   plane: newPlane,\n      //   bom: []\n      // }\n\n      // //And we can return that in the same way\n      // return anAssembly\n\n      /**\n      To Use the Code Atom, enter your inputs to the input list as an object array:\n      Inputs = [\n        {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10}\n      ]\n      If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0]\n      Use any replicad available methods to modify your geometry. Learn more about all of the available methods at\n      https://replicad.xyz/docs/introapp/UserGuide.html\n      Return a replicad object that includes geometry, color, tags and plane.\n\n      Example Code Atom:\n        Inputs = [\n          {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n          {inputName: \"x\", type: \"number\", defaultValue: 5}\n        ]\n        let finalShape = library[shape].geometry[0].clone().translate([x,0,0])\n        return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      */\n      "
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "B",
+              "ap1ID": "id-32032",
+              "ap2ID": "id-32034"
+            },
+            {
+              "ap2Name": "A",
+              "ap1ID": "id-32033",
+              "ap2ID": "id-32034"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-32034",
+              "ap2ID": "id-32031"
+            }
+          ],
+          "parentRepo": {
+            "lastFoundGit": "2025-12-17T15:47:14.799Z",
+            "privateRepo": false,
+            "repoName": "Above",
+            "dateCreated": "2025-09-22T22:39:35Z",
+            "readMe": "https://raw.githubusercontent.com/BarbourSmith/Above/master/README.md?sanitize=true",
+            "yyyy": 2025,
+            "topMoleculeID": "decd9514-fa8b-49ad-b680-2aaf10b00d00",
+            "githubMoleculesUsed": [],
+            "html_url": "https://github.com/BarbourSmith/Above",
+            "topics": [],
+            "parentRepo": null,
+            "forks": 0,
+            "dateModified": "739518",
+            "ranking": 0,
+            "searchField": "above barboursmith takes two inputs and moves input a in the z-axis direction so that it ends up above b as defined by their bounding boxes ",
+            "owner": "BarbourSmith",
+            "description": "Takes two inputs and moves input A in the Z-axis direction so that it ends up Above B as defined by their bounding boxes",
+            "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Above/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Above/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "MM",
+          "fileTypeVersion": 1
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-31997",
+          "ap2ID": "id-32020"
+        },
+        {
+          "ap2Name": "B",
+          "ap1ID": "id-32020",
+          "ap2ID": "id-32035"
+        }
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
