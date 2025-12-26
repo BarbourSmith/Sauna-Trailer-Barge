@@ -2,11 +2,12 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|New Item|121|$0.00||
+|New Item|122|$0.00||
 |Floor Tile|3|$0.00||
 |5x14mm wood screw|10|$0.00||
 |LED Light Strip|2|$0.00||
 |Lath|2|$0.00||
+|36 Inch Aluminum Sheet|2|$0.00||
 |Door Hinge|2|$0.00||
 |End Cap|1|$0.00||
-|Total: |141|$0.00| |
+|Total: |144|$0.00| |
