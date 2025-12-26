@@ -10,4 +10,5 @@
 |36 Inch Aluminum Sheet|2|$0.00||
 |Door Hinge|2|$0.00||
 |End Cap|1|$0.00||
-|Total: |144|$0.00| |
+|96 2x6|3|$0.00||
+|Total: |147|$0.00| |
