@@ -2,7 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|New Item|128|$0.00||
+|New Item|137|$0.00||
 |Floor Tile|3|$0.00||
 |5x14mm wood screw|10|$0.00||
 |LED Light Strip|2|$0.00||
@@ -11,4 +11,6 @@
 |Door Hinge|2|$0.00||
 |End Cap|1|$0.00||
 |96 2x6|3|$0.00||
-|Total: |153|$0.00| |
+|600mm Trex|6|$0.00||
+|1800mm Trex|6|$0.00||
+|Total: |174|$0.00| |
