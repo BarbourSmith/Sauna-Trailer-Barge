@@ -45336,8 +45336,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.53505291005291,
-          "y": 0.4666666666666667,
+          "x": 0.5370370370370371,
+          "y": 0.45555555555555555,
           "uniqueID": "id-127824",
           "ioValues": [
             {
@@ -45384,8 +45384,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.39814814814814814,
-          "y": 0.9472222222222223,
+          "x": 0.38095238095238093,
+          "y": 0.8833333333333333,
           "uniqueID": "id-139985",
           "ioValues": [
             {
@@ -48251,8 +48251,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.09060846560846561,
-          "y": 0.6222222222222222,
+          "x": 0.08928571428571429,
+          "y": 0.6416666666666666,
           "uniqueID": "id-117751",
           "name": "Motor Mount",
           "ioValues": [
@@ -48458,12 +48458,16 @@
             },
             {
               "atomType": "Assembly",
-              "x": 0.4510582010582011,
-              "y": 0.46388888888888885,
+              "x": 0.4464285714285714,
+              "y": 0.5305555555555556,
               "uniqueID": "id-151762",
               "ioValues": [
                 {
                   "name": "Shape 1",
+                  "ioValue": null
+                },
+                {
+                  "name": "Shape 3",
                   "ioValue": null
                 }
               ]
@@ -48486,8 +48490,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.6144179894179894,
-              "y": 0.8861111111111112,
+              "x": 0.6058201058201058,
+              "y": 0.9361111111111111,
               "uniqueID": "id-151771",
               "ioValues": [
                 {
@@ -48500,7 +48504,8 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 50
+                  "ioValue": 260,
+                  "currentEquation": "260"
                 },
                 {
                   "name": "zDist",
@@ -53333,6 +53338,119 @@
                   "ioValue": 0
                 }
               ]
+            },
+            {
+              "atomType": "Import",
+              "x": 0.07407407407407407,
+              "y": 0.6777777777777777,
+              "uniqueID": "id-162626",
+              "fileName": "Steam Ship.svg",
+              "name": "Import",
+              "type": "SVG",
+              "repoOwner": "BarbourSmith",
+              "repoName": "Sauna-Trailer-Barge",
+              "SVGwidth": 10
+            },
+            {
+              "atomType": "GitHubMolecule",
+              "x": 0.16600529100529102,
+              "y": 0.6,
+              "uniqueID": "id-162637",
+              "name": "Scale",
+              "ioValues": [
+                {
+                  "name": "Scale Factor",
+                  "ioValue": 38,
+                  "currentEquation": "38"
+                }
+              ],
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-162633",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.025384615384615384,
+                  "y": 0.15384615384615385,
+                  "uniqueID": "id-162634",
+                  "name": "Geometry",
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.025384615384615384,
+                  "y": 0.24615384615384617,
+                  "uniqueID": "id-162635",
+                  "name": "Scale Factor",
+                  "type": "number"
+                },
+                {
+                  "atomType": "Code",
+                  "x": 0.4226190476190476,
+                  "y": 0.25139664804469275,
+                  "uniqueID": "id-162636",
+                  "ioValues": [
+                    {
+                      "name": "scaleFactor",
+                      "ioValue": 38
+                    }
+                  ],
+                  "codeVersion": 1,
+                  "code": " \n      //Inputs:[inputShape, scaleFactor]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Takes the address and gets the shape from the library\n      let importedShape = library[inputShape]\n\n      let scaledShape = await Scale(inputShape, scaleFactor);\n      \n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [scaledShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      return shape1\n      \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "inputShape",
+                  "ap1ID": "id-162634",
+                  "ap2ID": "id-162636"
+                },
+                {
+                  "ap2Name": "scaleFactor",
+                  "ap1ID": "id-162635",
+                  "ap2ID": "id-162636"
+                },
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-162636",
+                  "ap2ID": "id-162633"
+                }
+              ],
+              "parentRepo": {
+                "lastFoundGit": "2026-03-15T18:23:39.176Z",
+                "privateRepo": false,
+                "repoName": "Scale",
+                "dateCreated": "2025-06-26T17:06:11Z",
+                "likes": 0,
+                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Scale/master/README.md?sanitize=true",
+                "yyyy": 2025,
+                "topMoleculeID": "4b6bc40a-44a9-438a-9ed9-ba4910815d8d",
+                "githubMoleculesUsed": [],
+                "html_url": "https://github.com/BarbourSmith/Scale",
+                "topics": [],
+                "parentRepo": null,
+                "forks": 1,
+                "dateModified": "739428",
+                "ranking": 3.5,
+                "searchField": "scale barboursmith scales the input 2d or 3d geometry by the scale factor ",
+                "owner": "BarbourSmith",
+                "description": "Scales the input 2D or 3D geometry by the scale factor",
+                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Scale/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Scale/master/project.svg?sanitize=true",
+                "isLocal": false
+              },
+              "unitsKey": "Unitless",
+              "fileTypeVersion": 1
             }
           ],
           "allConnectors": [
@@ -53380,6 +53498,11 @@
               "ap2Name": "U_Bolt_Spacing_Y",
               "ap1ID": "id-136638",
               "ap2ID": "id-127414"
+            },
+            {
+              "ap2Name": "Shape 3",
+              "ap1ID": "id-151734",
+              "ap2ID": "id-151762"
             },
             {
               "ap2Name": "geometry",
@@ -53430,6 +53553,16 @@
               "ap2Name": "geometry",
               "ap1ID": "id-162593",
               "ap2ID": "id-162597"
+            },
+            {
+              "ap2Name": "Geometry",
+              "ap1ID": "id-162626",
+              "ap2ID": "id-162637"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-162637",
+              "ap2ID": "id-151767"
             }
           ],
           "fileTypeVersion": 1
@@ -88533,6 +88666,79 @@
           },
           "unitsKey": "MM",
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.6567460317460317,
+          "y": 0.6277777777777778,
+          "uniqueID": "id-162604",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 180
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.7671957671957672,
+          "y": 0.7138888888888889,
+          "uniqueID": "id-162610",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 78,
+              "currentEquation": "60+18"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": -450
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.8644179894179894,
+          "y": 0.7527777777777778,
+          "uniqueID": "id-162616",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 5485
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": -200
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -88578,6 +88784,11 @@
         },
         {
           "ap2Name": "geometry",
+          "ap1ID": "id-140104",
+          "ap2ID": "id-162604"
+        },
+        {
+          "ap2Name": "geometry",
           "ap1ID": "id-117751",
           "ap2ID": "id-136631"
         },
@@ -88595,6 +88806,16 @@
           "ap2Name": "geometry",
           "ap1ID": "id-137466",
           "ap2ID": "id-139985"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-162604",
+          "ap2ID": "id-162610"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-162610",
+          "ap2ID": "id-162616"
         }
       ],
       "fileTypeVersion": 1
