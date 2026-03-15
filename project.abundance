@@ -6077,7 +6077,8 @@
                   "ioValues": [
                     {
                       "name": "Height",
-                      "ioValue": 80
+                      "ioValue": 70,
+                      "currentEquation": "70"
                     }
                   ],
                   "topLevel": false,
@@ -6162,7 +6163,7 @@
                         },
                         {
                           "name": "zDist",
-                          "ioValue": 80
+                          "ioValue": 70
                         }
                       ]
                     },
@@ -8610,6 +8611,30 @@
               "y": 0.5666666666666667,
               "uniqueID": "id-127821",
               "name": "Height"
+            },
+            {
+              "atomType": "Molecule",
+              "x": 0.33465608465608465,
+              "y": 0.8222222222222222,
+              "uniqueID": "id-127830",
+              "name": "Wood",
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-127832",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                }
+              ],
+              "allConnectors": [],
+              "fileTypeVersion": 1
             }
           ],
           "allConnectors": [
@@ -24056,8 +24081,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.4834656084656085,
-          "y": 0.7916666666666667,
+          "x": 0.48082010582010587,
+          "y": 0.8166666666666667,
           "uniqueID": "id-127824",
           "ioValues": [
             {
