@@ -45327,8 +45327,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.8657407407407408,
-          "y": 0.7611111111111112,
+          "x": 0.867063492063492,
+          "y": 0.7472222222222221,
           "uniqueID": "id-162616",
           "ioValues": [
             {
@@ -45345,8 +45345,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": 100,
-              "currentEquation": "100"
+              "ioValue": 95,
+              "currentEquation": "95"
             }
           ]
         },
@@ -48138,8 +48138,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.08928571428571429,
-          "y": 0.6416666666666666,
+          "x": 0.08664021164021164,
+          "y": 0.6472222222222223,
           "uniqueID": "id-117751",
           "name": "Motor Mount",
           "ioValues": [
@@ -48149,7 +48149,8 @@
             },
             {
               "name": "Height",
-              "ioValue": 650
+              "ioValue": 750,
+              "currentEquation": "750"
             },
             {
               "name": "Wood_Thickness",
@@ -48240,7 +48241,7 @@
               "ioValues": [
                 {
                   "name": "W",
-                  "ioValue": 650
+                  "ioValue": 750
                 }
               ],
               "currentEquation": "W-100"
@@ -48311,8 +48312,8 @@
             },
             {
               "atomType": "Difference",
-              "x": 0.6785714285714286,
-              "y": 0.47777777777777775,
+              "x": 0.6818783068783069,
+              "y": 0.4972222222222222,
               "uniqueID": "id-151777",
               "ioValues": [
                 {
@@ -48383,18 +48384,20 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 600
+                  "ioValue": 609.5999999999999,
+                  "currentEquation": "24*25.4"
                 },
                 {
                   "name": "y length",
-                  "ioValue": 850
+                  "ioValue": 1219.1999999999998,
+                  "currentEquation": "48*25.4"
                 }
               ]
             },
             {
               "atomType": "Move",
-              "x": 0.878968253968254,
-              "y": 0.3638888888888889,
+              "x": 0.8842592592592592,
+              "y": 0.33611111111111114,
               "uniqueID": "id-162597",
               "ioValues": [
                 {
@@ -48407,7 +48410,8 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 50
+                  "ioValue": 200,
+                  "currentEquation": "200"
                 },
                 {
                   "name": "zDist",
@@ -48556,7 +48560,7 @@
                 },
                 {
                   "name": "Height",
-                  "ioValue": 650
+                  "ioValue": 750
                 },
                 {
                   "name": "Wood_Thickness",
@@ -48656,7 +48660,7 @@
                     {
                       "name": "Shape 2",
                       "ioValue": {
-                        "geometry": "extrude-shrinkWrap-fuse-fuse-fuse-move-circle-50--150--275-0-move-circle-50--150-275-0-move-circle-50-150--275-0-move-circle-50-150-275-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18",
+                        "geometry": "extrude-shrinkWrap-fuse-fuse-fuse-move-circle-50--150--325-0-move-circle-50--150-325-0-move-circle-50-150--325-0-move-circle-50-150-325-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18",
                         "dimension": "3D",
                         "tags": [],
                         "color": "#aad7f2",
@@ -48853,7 +48857,7 @@
                     },
                     {
                       "name": "Height",
-                      "ioValue": 650
+                      "ioValue": 750
                     },
                     {
                       "name": "Radius",
@@ -48933,7 +48937,7 @@
                       "ioValues": [
                         {
                           "name": "H",
-                          "ioValue": 650
+                          "ioValue": 750
                         },
                         {
                           "name": "R",
@@ -48958,7 +48962,7 @@
                         },
                         {
                           "name": "yDist",
-                          "ioValue": 275
+                          "ioValue": 325
                         },
                         {
                           "name": "zDist",
@@ -49009,7 +49013,7 @@
                       "ioValues": [
                         {
                           "name": "H",
-                          "ioValue": 650
+                          "ioValue": 750
                         },
                         {
                           "name": "R",
@@ -49034,7 +49038,7 @@
                         },
                         {
                           "name": "yDist",
-                          "ioValue": -275
+                          "ioValue": -325
                         },
                         {
                           "name": "zDist",
@@ -49058,7 +49062,7 @@
                         },
                         {
                           "name": "yDist",
-                          "ioValue": 275
+                          "ioValue": 325
                         },
                         {
                           "name": "zDist",
@@ -49082,7 +49086,7 @@
                         },
                         {
                           "name": "yDist",
-                          "ioValue": -275
+                          "ioValue": -325
                         },
                         {
                           "name": "zDist",
@@ -49138,7 +49142,7 @@
                         {
                           "name": "Shape 1",
                           "ioValue": {
-                            "geometry": "move-circle-50--150--275-0",
+                            "geometry": "move-circle-50--150--325-0",
                             "dimension": "2D",
                             "tags": [],
                             "plane": {
@@ -49165,7 +49169,7 @@
                         {
                           "name": "Shape 2",
                           "ioValue": {
-                            "geometry": "move-circle-50--150-275-0",
+                            "geometry": "move-circle-50--150-325-0",
                             "dimension": "2D",
                             "tags": [],
                             "plane": {
@@ -49192,7 +49196,7 @@
                         {
                           "name": "Shape 3",
                           "ioValue": {
-                            "geometry": "move-circle-50-150--275-0",
+                            "geometry": "move-circle-50-150--325-0",
                             "dimension": "2D",
                             "tags": [],
                             "plane": {
@@ -49219,7 +49223,7 @@
                         {
                           "name": "Shape 4",
                           "ioValue": {
-                            "geometry": "move-circle-50-150-275-0",
+                            "geometry": "move-circle-50-150-325-0",
                             "dimension": "2D",
                             "tags": [],
                             "plane": {
@@ -50718,7 +50722,7 @@
                 },
                 {
                   "name": "U_Bolt_Spacing_Y",
-                  "ioValue": 550
+                  "ioValue": 650
                 }
               ],
               "topLevel": false,
@@ -50826,7 +50830,7 @@
                     },
                     {
                       "name": "Length (Y)",
-                      "ioValue": 550
+                      "ioValue": 650
                     }
                   ],
                   "topLevel": false,
@@ -50904,7 +50908,7 @@
                       "ioValues": [
                         {
                           "name": "L",
-                          "ioValue": 550
+                          "ioValue": 650
                         }
                       ],
                       "currentEquation": "L/2"
@@ -50918,7 +50922,7 @@
                       "ioValues": [
                         {
                           "name": "L",
-                          "ioValue": 550
+                          "ioValue": 650
                         }
                       ],
                       "currentEquation": "L/-2"
@@ -50939,7 +50943,7 @@
                         },
                         {
                           "name": "yDist",
-                          "ioValue": 275
+                          "ioValue": 325
                         },
                         {
                           "name": "zDist",
@@ -50963,7 +50967,7 @@
                         },
                         {
                           "name": "yDist",
-                          "ioValue": -275
+                          "ioValue": -325
                         },
                         {
                           "name": "zDist",
@@ -50987,7 +50991,7 @@
                         },
                         {
                           "name": "yDist",
-                          "ioValue": 275
+                          "ioValue": 325
                         },
                         {
                           "name": "zDist",
@@ -51011,7 +51015,7 @@
                         },
                         {
                           "name": "yDist",
-                          "ioValue": -275
+                          "ioValue": -325
                         },
                         {
                           "name": "zDist",
