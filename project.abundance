@@ -48361,8 +48361,8 @@
             },
             {
               "atomType": "Text",
-              "x": 0.2962962962962963,
-              "y": 0.6722222222222223,
+              "x": 0.17063492063492064,
+              "y": 0.8777777777777778,
               "uniqueID": "id-151734",
               "ioValues": [
                 {
@@ -48410,8 +48410,8 @@
             },
             {
               "atomType": "Text",
-              "x": 0.24801587301587302,
-              "y": 0.9166666666666667,
+              "x": 0.07605820105820106,
+              "y": 0.9111111111111111,
               "uniqueID": "id-151745",
               "ioValues": [
                 {
@@ -48434,8 +48434,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.3948412698412699,
-              "y": 0.8888888888888888,
+              "x": 0.2632275132275132,
+              "y": 0.9555555555555555,
               "uniqueID": "id-151756",
               "ioValues": [
                 {
@@ -48458,8 +48458,8 @@
             },
             {
               "atomType": "Assembly",
-              "x": 0.4464285714285714,
-              "y": 0.5305555555555556,
+              "x": 0.2294973544973545,
+              "y": 0.8583333333333334,
               "uniqueID": "id-151762",
               "ioValues": [
                 {
@@ -48490,8 +48490,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.6058201058201058,
-              "y": 0.9361111111111111,
+              "x": 0.6117724867724867,
+              "y": 0.9027777777777777,
               "uniqueID": "id-151771",
               "ioValues": [
                 {
@@ -48504,8 +48504,8 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 260,
-                  "currentEquation": "260"
+                  "ioValue": 430,
+                  "currentEquation": "430"
                 },
                 {
                   "name": "zDist",
@@ -50621,7 +50621,8 @@
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 200
+                      "ioValue": 200,
+                      "currentEquation": "200"
                     },
                     {
                       "name": "zDist",
@@ -50682,6 +50683,11 @@
                   "ap2ID": "id-136610"
                 },
                 {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-151784",
+                  "ap2ID": "id-127832"
+                },
+                {
                   "ap2Name": "geometry",
                   "ap1ID": "id-127862",
                   "ap2ID": "id-136603"
@@ -50700,11 +50706,6 @@
                   "ap2Name": "geometry",
                   "ap1ID": "id-162649",
                   "ap2ID": "id-162653"
-                },
-                {
-                  "ap2Name": "number or geometry",
-                  "ap1ID": "id-162653",
-                  "ap2ID": "id-127832"
                 }
               ],
               "fileTypeVersion": 1
@@ -53311,8 +53312,8 @@
             },
             {
               "atomType": "Gcode",
-              "x": 0.8902116402116402,
-              "y": 0.7527777777777778,
+              "x": 0.8829365079365079,
+              "y": 0.7666666666666666,
               "uniqueID": "id-162586",
               "ioValues": [
                 {
@@ -53391,8 +53392,8 @@
             },
             {
               "atomType": "Import",
-              "x": 0.07407407407407407,
-              "y": 0.6777777777777777,
+              "x": 0.28769841269841273,
+              "y": 0.663888888888889,
               "uniqueID": "id-162626",
               "fileName": "Steam Ship.svg",
               "name": "Import",
@@ -53403,15 +53404,15 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.16600529100529102,
-              "y": 0.6,
+              "x": 0.3941798941798942,
+              "y": 0.7305555555555556,
               "uniqueID": "id-162637",
               "name": "Scale",
               "ioValues": [
                 {
                   "name": "Scale Factor",
-                  "ioValue": 38,
-                  "currentEquation": "38"
+                  "ioValue": 65,
+                  "currentEquation": "65"
                 }
               ],
               "topLevel": false,
@@ -53452,7 +53453,7 @@
                   "ioValues": [
                     {
                       "name": "scaleFactor",
-                      "ioValue": 38
+                      "ioValue": 65
                     }
                   ],
                   "codeVersion": 1,
