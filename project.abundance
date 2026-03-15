@@ -6006,10 +6006,22 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.3353174603174603,
-          "y": 0.8444444444444446,
+          "x": 0.33664021164021163,
+          "y": 0.8527777777777777,
           "uniqueID": "id-117751",
           "name": "Motor Mount",
+          "ioValues": [
+            {
+              "name": "Width",
+              "ioValue": 340,
+              "currentEquation": "340"
+            },
+            {
+              "name": "Height",
+              "ioValue": 700,
+              "currentEquation": "700"
+            }
+          ],
           "topLevel": false,
           "allAtoms": [
             {
@@ -6033,7 +6045,7 @@
               "ioValues": [
                 {
                   "name": "U_bolt_Spacing_X",
-                  "ioValue": 300,
+                  "ioValue": 340,
                   "currentEquation": "300"
                 },
                 {
@@ -6065,7 +6077,7 @@
                   "ioValues": [
                     {
                       "name": "Height",
-                      "ioValue": 60
+                      "ioValue": 80
                     }
                   ],
                   "topLevel": false,
@@ -6150,7 +6162,7 @@
                         },
                         {
                           "name": "zDist",
-                          "ioValue": 60
+                          "ioValue": 80
                         }
                       ]
                     },
@@ -8188,7 +8200,7 @@
                   "ioValues": [
                     {
                       "name": "Width (X)",
-                      "ioValue": 300
+                      "ioValue": 340
                     },
                     {
                       "name": "Length (Y)",
@@ -8242,7 +8254,7 @@
                       "ioValues": [
                         {
                           "name": "W",
-                          "ioValue": 300
+                          "ioValue": 340
                         }
                       ],
                       "currentEquation": "W/2"
@@ -8256,7 +8268,7 @@
                       "ioValues": [
                         {
                           "name": "W",
-                          "ioValue": 300
+                          "ioValue": 340
                         }
                       ],
                       "currentEquation": "W/-2"
@@ -8301,7 +8313,7 @@
                         },
                         {
                           "name": "xDist",
-                          "ioValue": 150
+                          "ioValue": 170
                         },
                         {
                           "name": "yDist",
@@ -8325,7 +8337,7 @@
                         },
                         {
                           "name": "xDist",
-                          "ioValue": 150
+                          "ioValue": 170
                         },
                         {
                           "name": "yDist",
@@ -8349,7 +8361,7 @@
                         },
                         {
                           "name": "xDist",
-                          "ioValue": -150
+                          "ioValue": -170
                         },
                         {
                           "name": "yDist",
@@ -8373,7 +8385,7 @@
                         },
                         {
                           "name": "xDist",
-                          "ioValue": -150
+                          "ioValue": -170
                         },
                         {
                           "name": "yDist",
@@ -8572,13 +8584,54 @@
                 }
               ],
               "fileTypeVersion": 1
+            },
+            {
+              "atomType": "Assembly",
+              "x": 0.5853174603174603,
+              "y": 0.33888888888888885,
+              "uniqueID": "id-127814",
+              "ioValues": [
+                {
+                  "name": "Shape 1",
+                  "ioValue": null
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.29444444444444445,
+              "uniqueID": "id-127818",
+              "name": "Width"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.5666666666666667,
+              "uniqueID": "id-127821",
+              "name": "Height"
             }
           ],
           "allConnectors": [
             {
-              "ap2Name": "number or geometry",
+              "ap2Name": "Shape 1",
               "ap1ID": "id-127414",
+              "ap2ID": "id-127814"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-127814",
               "ap2ID": "id-117753"
+            },
+            {
+              "ap2Name": "U_bolt_Spacing_X",
+              "ap1ID": "id-127818",
+              "ap2ID": "id-127414"
+            },
+            {
+              "ap2Name": "U_Bolt_Spacing_Y",
+              "ap1ID": "id-127821",
+              "ap2ID": "id-127414"
             }
           ],
           "fileTypeVersion": 1
@@ -24000,6 +24053,32 @@
             }
           ],
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Move",
+          "x": 0.4834656084656085,
+          "y": 0.7916666666666667,
+          "uniqueID": "id-127824",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 5500,
+              "currentEquation": "5500"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": -200,
+              "currentEquation": "-200"
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -24007,6 +24086,11 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-117746",
           "ap2ID": "id-115424"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-117751",
+          "ap2ID": "id-127824"
         },
         {
           "ap2Name": "Shape 2",
