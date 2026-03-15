@@ -48360,34 +48360,9 @@
               "currentEquation": "W-100"
             },
             {
-              "atomType": "Text",
-              "x": 0.17063492063492064,
-              "y": 0.8777777777777778,
-              "uniqueID": "id-151734",
-              "ioValues": [
-                {
-                  "name": "Font Size",
-                  "ioValue": 60,
-                  "currentEquation": "60"
-                },
-                {
-                  "name": "Text",
-                  "ioValue": "Steam Ship",
-                  "currentEquation": "Steam Ship"
-                },
-                {
-                  "name": "Font Family",
-                  "ioValue": "PACIFICO",
-                  "currentEquation": "PACIFICO"
-                }
-              ],
-              "fontFamily": "PACIFICO",
-              "selectedFontIndex": 7
-            },
-            {
               "atomType": "Rotate",
-              "x": 0.5535714285714286,
-              "y": 0.4361111111111111,
+              "x": 0.4695767195767196,
+              "y": 0.7666666666666666,
               "uniqueID": "id-151739",
               "ioValues": [
                 {
@@ -48409,73 +48384,9 @@
               ]
             },
             {
-              "atomType": "Text",
-              "x": 0.07605820105820106,
-              "y": 0.9111111111111111,
-              "uniqueID": "id-151745",
-              "ioValues": [
-                {
-                  "name": "Font Size",
-                  "ioValue": 30
-                },
-                {
-                  "name": "Text",
-                  "ioValue": "Seattle, WA",
-                  "currentEquation": "Seattle, WA"
-                },
-                {
-                  "name": "Font Family",
-                  "ioValue": "PACIFICO",
-                  "currentEquation": "PACIFICO"
-                }
-              ],
-              "fontFamily": "PACIFICO",
-              "selectedFontIndex": 7
-            },
-            {
-              "atomType": "Move",
-              "x": 0.2632275132275132,
-              "y": 0.9555555555555555,
-              "uniqueID": "id-151756",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "xDist",
-                  "ioValue": 120
-                },
-                {
-                  "name": "yDist",
-                  "ioValue": -35
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 0
-                }
-              ]
-            },
-            {
-              "atomType": "Assembly",
-              "x": 0.2294973544973545,
-              "y": 0.8583333333333334,
-              "uniqueID": "id-151762",
-              "ioValues": [
-                {
-                  "name": "Shape 1",
-                  "ioValue": null
-                },
-                {
-                  "name": "Shape 3",
-                  "ioValue": null
-                }
-              ]
-            },
-            {
               "atomType": "Extrude",
-              "x": 0.511904761904762,
-              "y": 0.9083333333333333,
+              "x": 0.3326719576719577,
+              "y": 0.775,
               "uniqueID": "id-151767",
               "ioValues": [
                 {
@@ -48490,8 +48401,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.6117724867724867,
-              "y": 0.9027777777777777,
+              "x": 0.5720899470899471,
+              "y": 0.6833333333333333,
               "uniqueID": "id-151771",
               "ioValues": [
                 {
@@ -48515,8 +48426,8 @@
             },
             {
               "atomType": "Difference",
-              "x": 0.6812169312169312,
-              "y": 0.6194444444444445,
+              "x": 0.6785714285714286,
+              "y": 0.47777777777777775,
               "uniqueID": "id-151777",
               "ioValues": [
                 {
@@ -48546,8 +48457,8 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.3630952380952381,
-              "y": 0.4305555555555555,
+              "x": 0.36177248677248675,
+              "y": 0.4194444444444444,
               "uniqueID": "id-127830",
               "name": "Wood",
               "ioValues": [
@@ -53391,21 +53302,9 @@
               ]
             },
             {
-              "atomType": "Import",
-              "x": 0.08928571428571429,
-              "y": 0.6222222222222222,
-              "uniqueID": "id-162626",
-              "fileName": "Steam Ship.svg",
-              "name": "Import",
-              "type": "SVG",
-              "repoOwner": "BarbourSmith",
-              "repoName": "Sauna-Trailer-Barge",
-              "SVGwidth": 10
-            },
-            {
               "atomType": "GitHubMolecule",
-              "x": 0.3941798941798942,
-              "y": 0.7305555555555556,
+              "x": 0.19113756613756613,
+              "y": 0.7527777777777778,
               "uniqueID": "id-162637",
               "name": "Scale",
               "ioValues": [
@@ -53505,10 +53404,22 @@
             },
             {
               "atomType": "Import",
-              "x": 0.18849206349206352,
-              "y": 0.5777777777777777,
+              "x": 0.07671957671957672,
+              "y": 0.8055555555555556,
               "uniqueID": "id-162659",
               "fileName": "Steam Ship(1).svg",
+              "name": "Import",
+              "type": "SVG",
+              "repoOwner": "BarbourSmith",
+              "repoName": "Sauna-Trailer-Barge",
+              "SVGwidth": 10
+            },
+            {
+              "atomType": "Import",
+              "x": 0.14417989417989419,
+              "y": 0.5861111111111111,
+              "uniqueID": "id-162662",
+              "fileName": "Steam Ship(2).svg",
               "name": "Import",
               "type": "SVG",
               "repoOwner": "BarbourSmith",
@@ -53558,24 +53469,9 @@
               "ap2ID": "id-127414"
             },
             {
-              "ap2Name": "Shape 3",
-              "ap1ID": "id-151734",
-              "ap2ID": "id-151762"
-            },
-            {
               "ap2Name": "geometry",
               "ap1ID": "id-151739",
               "ap2ID": "id-151771"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-151745",
-              "ap2ID": "id-151756"
-            },
-            {
-              "ap2Name": "Shape 1",
-              "ap1ID": "id-151756",
-              "ap2ID": "id-151762"
             },
             {
               "ap2Name": "geometry",
@@ -53624,7 +53520,7 @@
             },
             {
               "ap2Name": "Geometry",
-              "ap1ID": "id-162659",
+              "ap1ID": "id-162662",
               "ap2ID": "id-162637"
             }
           ],
