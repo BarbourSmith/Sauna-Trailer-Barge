@@ -5516,6 +5516,10 @@
                         {
                           "name": "Dist",
                           "ioValue": 107.47
+                        },
+                        {
+                          "name": "Shape",
+                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -6215,6 +6219,16 @@
                           "x": 0.4503968253968254,
                           "y": 0.3687150837988827,
                           "uniqueID": "id-97782",
+                          "ioValues": [
+                            {
+                              "name": "thickness",
+                              "ioValue": "__GEOMETRY_INPUT__"
+                            },
+                            {
+                              "name": "numBumps",
+                              "ioValue": "__GEOMETRY_INPUT__"
+                            }
+                          ],
                           "codeVersion": 1,
                           "code": " \n      //Inputs:[thickness, numBumps]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Define a circle\n       const circleFunction = (t) => {\n\n         \n       const period = 72;\n       const circumference = numBumps * period;\n       const baseRadius = circumference / (2 * Math.PI);\n       console.log(\"Base Radius: \" + baseRadius);\n\n        t = t === 1 ? 0: t\n      \n        const length = Math.PI*2*baseRadius;\n        const amplitude = 19 / 2;\n        const sinX = t * length; // Scale  to the total length (circumference)\n        const sinY = amplitude * Math.sin((2 * Math.PI * sinX) / period)\n      \n        const angle = 2 * Math.PI * t;\n      \n        const radius = baseRadius + sinY;\n      \n        const circleX = radius * Math.cos(angle);\n        const circleY = radius * Math.sin(angle);\n      \n        const x = circleX ;\n        const y = circleY;\n      \n      \n        return [x, y];\n      };\n\n      // Step 3: Create the sinewave shape\n      const points = Math.max(200, 6*numBumps);\n      const sinewaveShape = replicad.drawParametricFunction(circleFunction, { pointsCount: points });\n  \n    \n      // Return the combined shape\n      let createdShape =  sinewaveShape.sketchOnPlane().extrude(thickness);\n\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [createdShape], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      return shape2\n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
                         },
@@ -8579,6 +8593,10 @@
                             {
                               "name": "Angle",
                               "ioValue": 60
+                            },
+                            {
+                              "name": "Shape",
+                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -10306,6 +10324,20 @@
                               "x": 0.4933862433862434,
                               "y": 0.4608938547486033,
                               "uniqueID": "id-97950",
+                              "ioValues": [
+                                {
+                                  "name": "angle",
+                                  "ioValue": "__GEOMETRY_INPUT__"
+                                },
+                                {
+                                  "name": "height",
+                                  "ioValue": "__GEOMETRY_INPUT__"
+                                },
+                                {
+                                  "name": "thickness",
+                                  "ioValue": "__GEOMETRY_INPUT__"
+                                }
+                              ],
                               "codeVersion": 1,
                               "code": " \n      //Inputs:[angle, height, thickness]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n    \n      \n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(5,7)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n\n      let angleRad = angle * Math.PI / 180;\n      let base = 2 * height * Math.tan(angleRad / 2);\n\n      const triangle = replicad.draw([-base/2, 0])\n              .lineTo([base/2, 0])\n              .lineTo([0, height])\n              .close()\n              .sketchOnPlane()\n              .extrude(thickness)\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [triangle], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      return shape2\n \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
                             },
@@ -10480,6 +10512,10 @@
                                 {
                                   "name": "Angle",
                                   "ioValue": 90
+                                },
+                                {
+                                  "name": "Shape",
+                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -10953,6 +10989,20 @@
                               "x": 0.4933862433862434,
                               "y": 0.4608938547486033,
                               "uniqueID": "id-97980",
+                              "ioValues": [
+                                {
+                                  "name": "angle",
+                                  "ioValue": "__GEOMETRY_INPUT__"
+                                },
+                                {
+                                  "name": "height",
+                                  "ioValue": "__GEOMETRY_INPUT__"
+                                },
+                                {
+                                  "name": "thickness",
+                                  "ioValue": "__GEOMETRY_INPUT__"
+                                }
+                              ],
                               "codeVersion": 1,
                               "code": " \n      //Inputs:[angle, height, thickness]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n    \n      \n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(5,7)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n\n      let angleRad = angle * Math.PI / 180;\n      let base = 2 * height * Math.tan(angleRad / 2);\n\n      const triangle = replicad.draw([-base/2, 0])\n              .lineTo([base/2, 0])\n              .lineTo([0, height])\n              .close()\n              .sketchOnPlane()\n              .extrude(thickness)\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [triangle], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      return shape2\n \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
                             },
@@ -12024,6 +12074,20 @@
                               "x": 0.4933862433862434,
                               "y": 0.4608938547486033,
                               "uniqueID": "id-98028",
+                              "ioValues": [
+                                {
+                                  "name": "angle",
+                                  "ioValue": "__GEOMETRY_INPUT__"
+                                },
+                                {
+                                  "name": "height",
+                                  "ioValue": "__GEOMETRY_INPUT__"
+                                },
+                                {
+                                  "name": "thickness",
+                                  "ioValue": "__GEOMETRY_INPUT__"
+                                }
+                              ],
                               "codeVersion": 1,
                               "code": " \n      //Inputs:[angle, height, thickness]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n    \n      \n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(5,7)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n\n      let angleRad = angle * Math.PI / 180;\n      let base = 2 * height * Math.tan(angleRad / 2);\n\n      const triangle = replicad.draw([-base/2, 0])\n              .lineTo([base/2, 0])\n              .lineTo([0, height])\n              .close()\n              .sketchOnPlane()\n              .extrude(thickness)\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [triangle], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      return shape2\n \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
                             },
@@ -12197,6 +12261,10 @@
                                 {
                                   "name": "Angle",
                                   "ioValue": 45
+                                },
+                                {
+                                  "name": "Shape",
+                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -14399,6 +14467,20 @@
                               "x": 0.5112433862433863,
                               "y": 0.4345403899721449,
                               "uniqueID": "id-98116",
+                              "ioValues": [
+                                {
+                                  "name": "Shape",
+                                  "ioValue": "__GEOMETRY_INPUT__"
+                                },
+                                {
+                                  "name": "Number",
+                                  "ioValue": "__GEOMETRY_INPUT__"
+                                },
+                                {
+                                  "name": "Dist",
+                                  "ioValue": "__GEOMETRY_INPUT__"
+                                }
+                              ],
                               "codeVersion": 1,
                               "code": "//Inputs:[Shape, Number, Dist];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, Dist * i, 0, 0);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
                             },
@@ -14517,6 +14599,10 @@
                                 {
                                   "name": "Dist",
                                   "ioValue": 800
+                                },
+                                {
+                                  "name": "Shape",
+                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -18995,6 +19081,10 @@
                                 {
                                   "name": "radius",
                                   "ioValue": 3
+                                },
+                                {
+                                  "name": "inputShape",
+                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -25851,6 +25941,10 @@
                                     {
                                       "name": "radius",
                                       "ioValue": 5
+                                    },
+                                    {
+                                      "name": "inputShape",
+                                      "ioValue": "__GEOMETRY_INPUT__"
                                     }
                                   ],
                                   "codeVersion": 1,
@@ -28225,6 +28319,10 @@
                             {
                               "name": "distZ",
                               "ioValue": 0
+                            },
+                            {
+                              "name": "Shape",
+                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -29780,6 +29878,10 @@
                             {
                               "name": "distZ",
                               "ioValue": 0
+                            },
+                            {
+                              "name": "Shape",
+                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -29845,6 +29947,10 @@
                             {
                               "name": "distZ",
                               "ioValue": 0
+                            },
+                            {
+                              "name": "Shape",
+                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -30152,6 +30258,10 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
+                                },
+                                {
+                                  "name": "Shape",
+                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -30217,6 +30327,10 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
+                                },
+                                {
+                                  "name": "Shape",
+                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -31070,6 +31184,28 @@
                                   "x": 0.4901746724890829,
                                   "y": 0.7515151515151516,
                                   "uniqueID": "id-98777",
+                                  "ioValues": [
+                                    {
+                                      "name": "Shape",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    },
+                                    {
+                                      "name": "Number",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    },
+                                    {
+                                      "name": "distX",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    },
+                                    {
+                                      "name": "distY",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    },
+                                    {
+                                      "name": "distZ",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    }
+                                  ],
                                   "codeVersion": 1,
                                   "code": "//Inputs:[Shape, Number, distX, distY, distZ];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, distX * i, distY * i,distZ * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
                                 },
@@ -31133,6 +31269,10 @@
                                     {
                                       "name": "distZ",
                                       "ioValue": 0
+                                    },
+                                    {
+                                      "name": "Shape",
+                                      "ioValue": "__GEOMETRY_INPUT__"
                                     }
                                   ],
                                   "codeVersion": 1,
@@ -31266,6 +31406,28 @@
                                   "x": 0.4901746724890829,
                                   "y": 0.7515151515151516,
                                   "uniqueID": "id-98789",
+                                  "ioValues": [
+                                    {
+                                      "name": "Shape",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    },
+                                    {
+                                      "name": "Number",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    },
+                                    {
+                                      "name": "distX",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    },
+                                    {
+                                      "name": "distY",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    },
+                                    {
+                                      "name": "distZ",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    }
+                                  ],
                                   "codeVersion": 1,
                                   "code": "//Inputs:[Shape, Number, distX, distY, distZ];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, distX * i, distY * i,distZ * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
                                 },
@@ -31329,6 +31491,10 @@
                                     {
                                       "name": "distZ",
                                       "ioValue": 0
+                                    },
+                                    {
+                                      "name": "Shape",
+                                      "ioValue": "__GEOMETRY_INPUT__"
                                     }
                                   ],
                                   "codeVersion": 1,
@@ -31462,6 +31628,28 @@
                                   "x": 0.4901746724890829,
                                   "y": 0.7515151515151516,
                                   "uniqueID": "id-98801",
+                                  "ioValues": [
+                                    {
+                                      "name": "Shape",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    },
+                                    {
+                                      "name": "Number",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    },
+                                    {
+                                      "name": "distX",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    },
+                                    {
+                                      "name": "distY",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    },
+                                    {
+                                      "name": "distZ",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    }
+                                  ],
                                   "codeVersion": 1,
                                   "code": "//Inputs:[Shape, Number, distX, distY, distZ];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, distX * i, distY * i,distZ * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
                                 },
@@ -31525,6 +31713,10 @@
                                     {
                                       "name": "distZ",
                                       "ioValue": 0
+                                    },
+                                    {
+                                      "name": "Shape",
+                                      "ioValue": "__GEOMETRY_INPUT__"
                                     }
                                   ],
                                   "codeVersion": 1,
@@ -37007,6 +37199,28 @@
                                   "x": 0.4901746724890829,
                                   "y": 0.7515151515151516,
                                   "uniqueID": "id-99003",
+                                  "ioValues": [
+                                    {
+                                      "name": "Shape",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    },
+                                    {
+                                      "name": "Number",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    },
+                                    {
+                                      "name": "distX",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    },
+                                    {
+                                      "name": "distY",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    },
+                                    {
+                                      "name": "distZ",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    }
+                                  ],
                                   "codeVersion": 1,
                                   "code": "//Inputs:[Shape, Number, distX, distY, distZ];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, distX * i, distY * i,distZ * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
                                 },
@@ -37070,6 +37284,10 @@
                                     {
                                       "name": "distZ",
                                       "ioValue": 0
+                                    },
+                                    {
+                                      "name": "Shape",
+                                      "ioValue": "__GEOMETRY_INPUT__"
                                     }
                                   ],
                                   "codeVersion": 1,
@@ -37224,6 +37442,20 @@
                                   "x": 0.5741525423728814,
                                   "y": 0.6072423398328691,
                                   "uniqueID": "id-99017",
+                                  "ioValues": [
+                                    {
+                                      "name": "Shape",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    },
+                                    {
+                                      "name": "Number",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    },
+                                    {
+                                      "name": "Angle",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    }
+                                  ],
                                   "codeVersion": 1,
                                   "code": "//Inputs:[Shape, Number, Angle];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Rotate(Shape, 0, 0, Angle * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
                                 },
@@ -43077,6 +43309,10 @@
                                         {
                                           "name": "Dist",
                                           "ioValue": 25
+                                        },
+                                        {
+                                          "name": "Shape",
+                                          "ioValue": "__GEOMETRY_INPUT__"
                                         }
                                       ],
                                       "codeVersion": 1,
@@ -44611,6 +44847,10 @@
                         {
                           "name": "radius",
                           "ioValue": 20
+                        },
+                        {
+                          "name": "inputShape",
+                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -44625,6 +44865,10 @@
                         {
                           "name": "radius",
                           "ioValue": 2
+                        },
+                        {
+                          "name": "inputShape",
+                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -46612,6 +46856,10 @@
                             {
                               "name": "Angle",
                               "ioValue": 120
+                            },
+                            {
+                              "name": "Shape",
+                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -47096,8 +47344,7 @@
                 },
                 {
                   "name": "Cut Through",
-                  "ioValue": 3,
-                  "currentEquation": "3"
+                  "ioValue": 3
                 },
                 {
                   "name": "Part Name",
@@ -47225,6 +47472,10 @@
                     {
                       "name": "scaleFactor",
                       "ioValue": 65
+                    },
+                    {
+                      "name": "inputShape",
+                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "codeVersion": 1,
@@ -50697,6 +50948,10 @@
                                 {
                                   "name": "radius",
                                   "ioValue": 4
+                                },
+                                {
+                                  "name": "inputShape",
+                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -50711,6 +50966,10 @@
                                 {
                                   "name": "radius",
                                   "ioValue": 2
+                                },
+                                {
+                                  "name": "inputShape",
+                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -52277,6 +52536,10 @@
                         {
                           "name": "Dist",
                           "ioValue": 152
+                        },
+                        {
+                          "name": "Shape",
+                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -53206,6 +53469,10 @@
                         {
                           "name": "Dist",
                           "ioValue": 1219.1999999999998
+                        },
+                        {
+                          "name": "Shape",
+                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -63581,6 +63848,10 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
+                                },
+                                {
+                                  "name": "Shape",
+                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -63646,6 +63917,10 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
+                                },
+                                {
+                                  "name": "Shape",
+                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -65555,6 +65830,10 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
+                                },
+                                {
+                                  "name": "Shape",
+                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -65620,6 +65899,10 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
+                                },
+                                {
+                                  "name": "Shape",
+                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -65955,6 +66238,10 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
+                                },
+                                {
+                                  "name": "Shape",
+                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -66020,6 +66307,10 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
+                                },
+                                {
+                                  "name": "Shape",
+                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -68505,6 +68796,10 @@
                         {
                           "name": "distZ",
                           "ioValue": 0
+                        },
+                        {
+                          "name": "Shape",
+                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -71184,6 +71479,16 @@
                                   "x": 0.4920634920634921,
                                   "y": 0.5766016713091923,
                                   "uniqueID": "id-173550",
+                                  "ioValues": [
+                                    {
+                                      "name": "inputShape",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    },
+                                    {
+                                      "name": "radius",
+                                      "ioValue": "__GEOMETRY_INPUT__"
+                                    }
+                                  ],
                                   "codeVersion": 1,
                                   "code": "      //Inputs:[inputShape, radius]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Takes the address and gets the shape from the library\n      let importedShape = library[inputShape]\n      \n      //This makes a new copy of of the shape (to prevent garbage collection issues),\n      //and moves it in the X direction. Note that this will not work if the input is an assembly\n      let chamferedShape = await Fillet(inputShape, radius);\n      \n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [chamferedShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      //We could at this point return shape1 as a complete shape and it will be automatically written to the library for us\n      return shape1"
                                 },
@@ -71196,6 +71501,10 @@
                                     {
                                       "name": "radius",
                                       "ioValue": 2
+                                    },
+                                    {
+                                      "name": "inputShape",
+                                      "ioValue": "__GEOMETRY_INPUT__"
                                     }
                                   ],
                                   "codeVersion": 1,
@@ -77420,6 +77729,10 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
+                                },
+                                {
+                                  "name": "Shape",
+                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
