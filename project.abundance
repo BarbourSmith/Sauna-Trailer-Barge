@@ -47305,8 +47305,8 @@
                 },
                 {
                   "name": "Part Name",
-                  "ioValue": "Motor Mount",
-                  "currentEquation": "Motor Mount"
+                  "ioValue": "Motor Mount Rotated",
+                  "currentEquation": "Motor Mount Rotated"
                 }
               ],
               "partName": "Motor Mount",
