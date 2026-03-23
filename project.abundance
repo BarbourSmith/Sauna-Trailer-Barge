@@ -1201,8 +1201,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.5661375661375662,
-          "y": 0.20555555555555555,
+          "x": 0.6104497354497355,
+          "y": 0.20334261838440112,
           "uniqueID": "id-117746",
           "ioValues": [
             {
@@ -1221,8 +1221,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.5370370370370371,
-          "y": 0.45555555555555555,
+          "x": 0.625,
+          "y": 0.5069637883008357,
           "uniqueID": "id-127824",
           "ioValues": [
             {
@@ -1435,8 +1435,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.20965608465608468,
-          "y": 0.5626740947075208,
+          "x": 0.21362433862433863,
+          "y": 0.5738161559888579,
           "uniqueID": "id-140104",
           "name": "Electric_Outboard",
           "topLevel": false,
@@ -14122,8 +14122,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.35912698412698413,
-          "y": 0.3805555555555556,
+          "x": 0.35449735449735453,
+          "y": 0.26740947075208915,
           "uniqueID": "id-115577",
           "name": "Swim Ladder",
           "topLevel": false,
@@ -40781,8 +40781,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.41203703703703703,
-          "y": 0.520891364902507,
+          "x": 0.34656084656084657,
+          "y": 0.5459610027855153,
           "uniqueID": "id-207475",
           "name": "Swing Motor",
           "ioValues": [
@@ -40792,8 +40792,8 @@
             },
             {
               "name": "Swing_Angle",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 60,
+              "currentEquation": "60"
             }
           ],
           "topLevel": false,
@@ -40942,7 +40942,7 @@
                 },
                 {
                   "name": "y-axis degrees",
-                  "ioValue": 0
+                  "ioValue": 60
                 },
                 {
                   "name": "z-axis degrees",
@@ -40994,6 +40994,32 @@
             }
           ],
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Move",
+          "x": 0.4662698412698413,
+          "y": 0.479108635097493,
+          "uniqueID": "id-207529",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 609.5999999999999,
+              "currentEquation": "24*25.4"
+            },
+            {
+              "name": "yDist",
+              "ioValue": -150,
+              "currentEquation": "-150"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -41076,6 +41102,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-173947",
           "ap2ID": "id-139985"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-207475",
+          "ap2ID": "id-207529"
         }
       ],
       "fileTypeVersion": 1
