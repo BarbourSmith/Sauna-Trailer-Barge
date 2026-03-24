@@ -142,7 +142,8 @@
         },
         {
           "name": "xDist",
-          "ioValue": 4900
+          "ioValue": 5300,
+          "currentEquation": "5300"
         },
         {
           "name": "yDist",

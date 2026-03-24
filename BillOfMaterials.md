@@ -2,7 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|New Item|143|$100.00||
+|New Item|145|$100.00||
 |Floor Tile|3|$0.00||
 |5x14mm wood screw|10|$0.00||
 |LED Light Strip|2|$0.00||
@@ -18,4 +18,4 @@
 |Razo White Oak Wood Floor Register, Drop in Vent Cover with Damper|1|$25.50|[Amazon](https://www.amazon.com/Razo-Register-Opening-Thickness-Unfinished/dp/B0BLYWKLPW/ref=sr_1_4_sspa?crid=87PNO3LVJSSZ&dib=eyJ2IjoiMSJ9.98KO7YhoQRsLBqLqLQeeS7Tdf_J5PMeerdK8YISpDAhR_JT_7Sb7fycsvamRaK6V9sQ1zwVXBCI0CDbYWnfx42pNBJckrOaKuf4gsAdT-u6XV-DY4YViQUGmbhtkW1gBtu3TxZUU0wOTnGMGTv8CCWfrRHxrO3bORNp7nhk1fIRGnLZLkfOpEvj_HYwX-sQXDGV1tJVQfAJjoHB0GwwArCU-9Gx0W7TXvUwIDFq1qSpxKzIE1MmtTaa7uJmCzLN6Joxd65D4rhu8l4r1z_Whc2g_2Rg_m14zeoXudag35Pg.sLiT_7Q3PXPzndU4hLyUVunyYRqSzBTxzEHkz8IXu_Y&dib_tag=se&keywords=wood%2Bfloor%2Bregister%2Bdamper&qid=1769193267&sprefix=wood%2Bfloor%2Bregister%2Bdampe%2Caps%2C184&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1?tag=maslowcnc01-20)|
 |42mm Bearing|2|$6.50|[Amazon](https://www.amazon.com/dp/B082PYMKLG?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1?tag=maslowcnc01-20)|
 |24 Volt Servo|2|$89.70|[Amazon](https://www.amazon.com/dp/B0DFWQD5JL?tag=maslowcnc01-20)|
-|Total: |246|$378.61| |
+|Total: |248|$378.61| |
