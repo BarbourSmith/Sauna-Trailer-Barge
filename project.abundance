@@ -1181,8 +1181,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.611111111111111,
-      "y": 0.17548746518105848,
+      "x": 0.6011904761904762,
+      "y": 0.25348189415041783,
       "uniqueID": "id-115422",
       "name": "Barge Platform",
       "topLevel": false,
@@ -36793,7 +36793,7 @@
                             {
                               "name": "Shape 2",
                               "ioValue": {
-                                "geometry": "extrude-f488db5c-11-9.2-10-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20",
+                                "geometry": "extrude-f488db5c-11-9.2-__GEOMETRY_INPUT__-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20",
                                 "tags": [
                                   "aTag"
                                 ],
