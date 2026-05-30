@@ -4190,7 +4190,19 @@
                                 },
                                 "bom": [
                                   []
-                                ]
+                                ],
+                                "boundingBox": {
+                                  "min": [
+                                    -44.45000010000002,
+                                    -44.45000010000002,
+                                    -1.00000019860273e-7
+                                  ],
+                                  "max": [
+                                    146.05000010000003,
+                                    44.45000010000002,
+                                    10.00000010000002
+                                  ]
+                                }
                               },
                               {
                                 "geometry": [
@@ -4218,7 +4230,19 @@
                                         1
                                       ]
                                     },
-                                    "dimension": "3D"
+                                    "dimension": "3D",
+                                    "boundingBox": {
+                                      "min": [
+                                        -82.55000014999997,
+                                        -1.5000002842170942e-7,
+                                        -1.5e-7
+                                      ],
+                                      "max": [
+                                        32.89122394761463,
+                                        129.03522643062374,
+                                        10.00000015
+                                      ]
+                                    }
                                   },
                                   {
                                     "geometry": "5ea22352-{\"geometry\":\"extrude-shrinkWrap-fuse-circle-44.449999999999996-move-circle-19.049999999999997-127-0-0-50-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-10\",\"dimension\":\"3D\",\"tags\":[],\"color\":\"#aad7f2\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"bom\":[[]]}-3-120-8",
@@ -4244,7 +4268,19 @@
                                         1
                                       ]
                                     },
-                                    "dimension": "3D"
+                                    "dimension": "3D",
+                                    "boundingBox": {
+                                      "min": [
+                                        32.89122369761447,
+                                        -29.89932947534284,
+                                        -1.00000019860273e-7
+                                      ],
+                                      "max": [
+                                        33.64843032372084,
+                                        -29.044545747359894,
+                                        10.00000010000002
+                                      ]
+                                    }
                                   }
                                 ],
                                 "tags": [],
@@ -4267,6 +4303,18 @@
                                     0,
                                     0,
                                     1
+                                  ]
+                                },
+                                "boundingBox": {
+                                  "min": [
+                                    -82.55000014999997,
+                                    -29.89932947534284,
+                                    -1.5e-7
+                                  ],
+                                  "max": [
+                                    33.64843032372084,
+                                    129.03522643062374,
+                                    10.00000015
                                   ]
                                 },
                                 "dimension": "3D"
@@ -4295,7 +4343,19 @@
                                 },
                                 "bom": [
                                   []
-                                ]
+                                ],
+                                "boundingBox": {
+                                  "min": [
+                                    -82.55000010000008,
+                                    -129.03522638062373,
+                                    -1.00000019860273e-7
+                                  ],
+                                  "max": [
+                                    44.45000010000002,
+                                    44.45000010000002,
+                                    10.00000010000002
+                                  ]
+                                }
                               }
                             ],
                             "plane": {
@@ -4322,8 +4382,20 @@
                               [],
                               []
                             ],
+                            "dimension": "3D",
                             "nonReplicadSerialized": [],
-                            "dimension": "3D"
+                            "boundingBox": {
+                              "min": [
+                                -82.55000014999997,
+                                -129.03522638062373,
+                                -1.5e-7
+                              ],
+                              "max": [
+                                146.05000010000003,
+                                129.03522643062374,
+                                10.00000015
+                              ]
+                            }
                           }
                         },
                         {
@@ -37983,7 +38055,7 @@
                               "ioValue": {
                                 "geometry": [
                                   {
-                                    "geometry": "move-extrude-f343f380-{\"geometry\":[{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-8\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-9\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-10\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-11\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"nonReplicadSerialized\":[],\"dimension\":\"2D\"}-8-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0--50",
+                                    "geometry": "move-extrude-f343f380-{\"geometry\":[{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-8\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[],\"boundingBox\":{\"min\":[-3.000001,-3.000001,0],\"max\":[3.000001,3.000001,0]}},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-9\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[],\"boundingBox\":{\"min\":[12.999999,-3.000001,0],\"max\":[19.000001,3.000001,0]}},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-10\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[],\"boundingBox\":{\"min\":[28.999999,-3.000001,0],\"max\":[35.000001,3.000001,0]}},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-11\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[],\"boundingBox\":{\"min\":[44.999999,-3.000001,0],\"max\":[51.000001,3.000001,0]}}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"2D\",\"nonReplicadSerialized\":[],\"boundingBox\":{\"min\":[-3.000001,-3.000001,0],\"max\":[51.000001,3.000001,0]}}-8-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0--50",
                                     "dimension": "3D",
                                     "tags": [],
                                     "plane": {
@@ -38004,10 +38076,22 @@
                                       ]
                                     },
                                     "color": "#aad7f2",
-                                    "bom": []
+                                    "bom": [],
+                                    "boundingBox": {
+                                      "min": [
+                                        -3.000001,
+                                        -3.000001,
+                                        0
+                                      ],
+                                      "max": [
+                                        3.000001,
+                                        3.000001,
+                                        0
+                                      ]
+                                    }
                                   },
                                   {
-                                    "geometry": "move-extrude-f343f380-{\"geometry\":[{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-8\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-9\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-10\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-11\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"nonReplicadSerialized\":[],\"dimension\":\"2D\"}-9-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0--50",
+                                    "geometry": "move-extrude-f343f380-{\"geometry\":[{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-8\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[],\"boundingBox\":{\"min\":[-3.000001,-3.000001,0],\"max\":[3.000001,3.000001,0]}},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-9\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[],\"boundingBox\":{\"min\":[12.999999,-3.000001,0],\"max\":[19.000001,3.000001,0]}},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-10\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[],\"boundingBox\":{\"min\":[28.999999,-3.000001,0],\"max\":[35.000001,3.000001,0]}},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-11\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[],\"boundingBox\":{\"min\":[44.999999,-3.000001,0],\"max\":[51.000001,3.000001,0]}}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"2D\",\"nonReplicadSerialized\":[],\"boundingBox\":{\"min\":[-3.000001,-3.000001,0],\"max\":[51.000001,3.000001,0]}}-9-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0--50",
                                     "dimension": "3D",
                                     "tags": [],
                                     "plane": {
@@ -38028,10 +38112,22 @@
                                       ]
                                     },
                                     "color": "#aad7f2",
-                                    "bom": []
+                                    "bom": [],
+                                    "boundingBox": {
+                                      "min": [
+                                        12.999999,
+                                        -3.000001,
+                                        0
+                                      ],
+                                      "max": [
+                                        19.000001,
+                                        3.000001,
+                                        0
+                                      ]
+                                    }
                                   },
                                   {
-                                    "geometry": "move-extrude-f343f380-{\"geometry\":[{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-8\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-9\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-10\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-11\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"nonReplicadSerialized\":[],\"dimension\":\"2D\"}-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0--50",
+                                    "geometry": "move-extrude-f343f380-{\"geometry\":[{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-8\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[],\"boundingBox\":{\"min\":[-3.000001,-3.000001,0],\"max\":[3.000001,3.000001,0]}},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-9\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[],\"boundingBox\":{\"min\":[12.999999,-3.000001,0],\"max\":[19.000001,3.000001,0]}},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-10\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[],\"boundingBox\":{\"min\":[28.999999,-3.000001,0],\"max\":[35.000001,3.000001,0]}},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-11\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[],\"boundingBox\":{\"min\":[44.999999,-3.000001,0],\"max\":[51.000001,3.000001,0]}}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"2D\",\"nonReplicadSerialized\":[],\"boundingBox\":{\"min\":[-3.000001,-3.000001,0],\"max\":[51.000001,3.000001,0]}}-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0--50",
                                     "dimension": "3D",
                                     "tags": [],
                                     "plane": {
@@ -38052,10 +38148,22 @@
                                       ]
                                     },
                                     "color": "#aad7f2",
-                                    "bom": []
+                                    "bom": [],
+                                    "boundingBox": {
+                                      "min": [
+                                        28.999999,
+                                        -3.000001,
+                                        0
+                                      ],
+                                      "max": [
+                                        35.000001,
+                                        3.000001,
+                                        0
+                                      ]
+                                    }
                                   },
                                   {
-                                    "geometry": "move-extrude-f343f380-{\"geometry\":[{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-8\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-9\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-10\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-11\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"nonReplicadSerialized\":[],\"dimension\":\"2D\"}-11-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0--50",
+                                    "geometry": "move-extrude-f343f380-{\"geometry\":[{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-8\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[],\"boundingBox\":{\"min\":[-3.000001,-3.000001,0],\"max\":[3.000001,3.000001,0]}},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-9\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[],\"boundingBox\":{\"min\":[12.999999,-3.000001,0],\"max\":[19.000001,3.000001,0]}},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-10\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[],\"boundingBox\":{\"min\":[28.999999,-3.000001,0],\"max\":[35.000001,3.000001,0]}},{\"geometry\":\"0a97238a-{\\\"geometry\\\":\\\"circle-3\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-4-16-0-0-11\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[],\"boundingBox\":{\"min\":[44.999999,-3.000001,0],\"max\":[51.000001,3.000001,0]}}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"2D\",\"nonReplicadSerialized\":[],\"boundingBox\":{\"min\":[-3.000001,-3.000001,0],\"max\":[51.000001,3.000001,0]}}-11-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0--50",
                                     "dimension": "3D",
                                     "tags": [],
                                     "plane": {
@@ -38076,7 +38184,19 @@
                                       ]
                                     },
                                     "color": "#aad7f2",
-                                    "bom": []
+                                    "bom": [],
+                                    "boundingBox": {
+                                      "min": [
+                                        44.999999,
+                                        -3.000001,
+                                        0
+                                      ],
+                                      "max": [
+                                        51.000001,
+                                        3.000001,
+                                        0
+                                      ]
+                                    }
                                   }
                                 ],
                                 "plane": {
