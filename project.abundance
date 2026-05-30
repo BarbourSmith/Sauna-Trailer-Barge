@@ -7266,8 +7266,8 @@
                 },
                 {
                   "atomType": "Move",
-                  "x": 0.5707671957671958,
-                  "y": 0.32499999999999996,
+                  "x": 0.5740740740740741,
+                  "y": 0.32869080779944293,
                   "uniqueID": "id-151787",
                   "ioValues": [
                     {
@@ -7276,7 +7276,8 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": -100
+                      "ioValue": -110,
+                      "currentEquation": "-110"
                     },
                     {
                       "name": "yDist",
@@ -7300,6 +7301,10 @@
                     },
                     {
                       "name": "Shape 2",
+                      "ioValue": null
+                    },
+                    {
+                      "name": "Shape 3",
                       "ioValue": null
                     }
                   ]
@@ -9772,6 +9777,31 @@
                   },
                   "unitsKey": "MM",
                   "fileTypeVersion": 1
+                },
+                {
+                  "atomType": "Move",
+                  "x": 0.5502645502645502,
+                  "y": 0.6963788300835655,
+                  "uniqueID": "id-240344",
+                  "ioValues": [
+                    {
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "xDist",
+                      "ioValue": 110,
+                      "currentEquation": "110"
+                    },
+                    {
+                      "name": "yDist",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": 0
+                    }
+                  ]
                 }
               ],
               "allConnectors": [
@@ -9801,6 +9831,11 @@
                   "ap2ID": "id-151787"
                 },
                 {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-151798",
+                  "ap2ID": "id-240344"
+                },
+                {
                   "ap2Name": "Shape 1",
                   "ap1ID": "id-127769",
                   "ap2ID": "id-151793"
@@ -9814,6 +9849,11 @@
                   "ap2Name": "geometry",
                   "ap1ID": "id-127496",
                   "ap2ID": "id-151798"
+                },
+                {
+                  "ap2Name": "Shape 3",
+                  "ap1ID": "id-240344",
+                  "ap2ID": "id-151793"
                 }
               ],
               "fileTypeVersion": 1
