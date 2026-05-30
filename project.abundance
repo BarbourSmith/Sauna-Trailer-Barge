@@ -1245,8 +1245,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.6673280423280423,
-          "y": 0.47632311977715874,
+          "x": 0.5701058201058201,
+          "y": 0.5125348189415042,
           "uniqueID": "id-136631",
           "ioValues": [
             {
@@ -1438,8 +1438,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.1746031746031746,
-          "y": 0.46239554317548753,
+          "x": 0.13293650793650794,
+          "y": 0.5598885793871866,
           "uniqueID": "id-217814",
           "name": "Electric_Outboard",
           "topLevel": false,
@@ -4670,18 +4670,20 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.578042328042328,
-          "y": 0.5125348189415042,
+          "x": 0.3062169312169312,
+          "y": 0.5013927576601671,
           "uniqueID": "id-117751",
           "name": "Motor Mount",
           "ioValues": [
             {
               "name": "Width",
-              "ioValue": 525
+              "ioValue": 525,
+              "currentEquation": "525"
             },
             {
               "name": "Height",
-              "ioValue": 750
+              "ioValue": 875,
+              "currentEquation": "875"
             },
             {
               "name": "Wood_Thickness",
@@ -4772,7 +4774,7 @@
               "ioValues": [
                 {
                   "name": "W",
-                  "ioValue": 750
+                  "ioValue": 875
                 }
               ],
               "currentEquation": "W-100"
@@ -4819,8 +4821,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.5720899470899471,
-              "y": 0.6833333333333333,
+              "x": 0.578042328042328,
+              "y": 0.6740947075208913,
               "uniqueID": "id-151771",
               "ioValues": [
                 {
@@ -4833,7 +4835,8 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 430
+                  "ioValue": 0,
+                  "currentEquation": "0"
                 },
                 {
                   "name": "zDist",
@@ -4843,8 +4846,8 @@
             },
             {
               "atomType": "Difference",
-              "x": 0.6858465608465608,
-              "y": 0.5069637883008357,
+              "x": 0.6871693121693122,
+              "y": 0.5125348189415042,
               "uniqueID": "id-151777",
               "ioValues": [
                 {
@@ -4957,14 +4960,15 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.19113756613756613,
-              "y": 0.7527777777777778,
+              "x": 0.18849206349206352,
+              "y": 0.7604456824512534,
               "uniqueID": "id-162637",
               "name": "Scale",
               "ioValues": [
                 {
                   "name": "Scale Factor",
-                  "ioValue": 65
+                  "ioValue": 45,
+                  "currentEquation": "45"
                 }
               ],
               "topLevel": false,
@@ -5072,7 +5076,7 @@
                 },
                 {
                   "name": "Height",
-                  "ioValue": 750
+                  "ioValue": 875
                 },
                 {
                   "name": "Wood_Thickness",
@@ -5134,45 +5138,14 @@
                 },
                 {
                   "atomType": "Fusion",
-                  "x": 0.621031746031746,
-                  "y": 0.40555555555555556,
+                  "x": 0.6170634920634921,
+                  "y": 0.7298050139275767,
                   "uniqueID": "id-136610",
                   "ioValues": [
                     {
-                      "name": "Shape 1",
-                      "ioValue": {
-                        "geometry": "move-extrude-shrinkWrap-fuse-fuse-fuse-move-circle-50--212.5--75-0-move-circle-50--212.5-75-0-move-circle-50-212.5--75-0-move-circle-50-212.5-75-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18--63-0-0",
-                        "dimension": "3D",
-                        "tags": [],
-                        "color": "#aad7f2",
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "bom": [
-                          [],
-                          [],
-                          []
-                        ]
-                      }
-                    },
-                    {
                       "name": "Shape 2",
                       "ioValue": {
-                        "geometry": "extrude-shrinkWrap-fuse-fuse-fuse-move-circle-50--212.5--325-0-move-circle-50--212.5-325-0-move-circle-50-212.5--325-0-move-circle-50-212.5-325-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18",
+                        "geometry": "move-extrude-shrinkWrap-fuse-fuse-fuse-move-circle-50--212.5--387.5-0-move-circle-50--212.5-387.5-0-move-circle-50-212.5--387.5-0-move-circle-50-212.5-387.5-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18--60-0-0",
                         "dimension": "3D",
                         "tags": [],
                         "color": "#aad7f2",
@@ -5276,8 +5249,8 @@
                 },
                 {
                   "atomType": "Move",
-                  "x": 0.5886243386243386,
-                  "y": 0.6740947075208913,
+                  "x": 0.5330687830687831,
+                  "y": 0.8495821727019498,
                   "uniqueID": "id-151727",
                   "ioValues": [
                     {
@@ -5369,7 +5342,7 @@
                     },
                     {
                       "name": "Height",
-                      "ioValue": 750
+                      "ioValue": 875
                     },
                     {
                       "name": "Radius",
@@ -5449,7 +5422,7 @@
                       "ioValues": [
                         {
                           "name": "H",
-                          "ioValue": 750
+                          "ioValue": 875
                         },
                         {
                           "name": "R",
@@ -5474,7 +5447,7 @@
                         },
                         {
                           "name": "yDist",
-                          "ioValue": 325
+                          "ioValue": 387.5
                         },
                         {
                           "name": "zDist",
@@ -5525,7 +5498,7 @@
                       "ioValues": [
                         {
                           "name": "H",
-                          "ioValue": 750
+                          "ioValue": 875
                         },
                         {
                           "name": "R",
@@ -5550,7 +5523,7 @@
                         },
                         {
                           "name": "yDist",
-                          "ioValue": -325
+                          "ioValue": -387.5
                         },
                         {
                           "name": "zDist",
@@ -5574,7 +5547,7 @@
                         },
                         {
                           "name": "yDist",
-                          "ioValue": 325
+                          "ioValue": 387.5
                         },
                         {
                           "name": "zDist",
@@ -5598,7 +5571,7 @@
                         },
                         {
                           "name": "yDist",
-                          "ioValue": -325
+                          "ioValue": -387.5
                         },
                         {
                           "name": "zDist",
@@ -5654,7 +5627,7 @@
                         {
                           "name": "Shape 1",
                           "ioValue": {
-                            "geometry": "move-circle-50--212.5--325-0",
+                            "geometry": "move-circle-50--212.5--387.5-0",
                             "dimension": "2D",
                             "tags": [],
                             "plane": {
@@ -5681,7 +5654,7 @@
                         {
                           "name": "Shape 2",
                           "ioValue": {
-                            "geometry": "move-circle-50--212.5-325-0",
+                            "geometry": "move-circle-50--212.5-387.5-0",
                             "dimension": "2D",
                             "tags": [],
                             "plane": {
@@ -5708,7 +5681,7 @@
                         {
                           "name": "Shape 3",
                           "ioValue": {
-                            "geometry": "move-circle-50-212.5--325-0",
+                            "geometry": "move-circle-50-212.5--387.5-0",
                             "dimension": "2D",
                             "tags": [],
                             "plane": {
@@ -5735,7 +5708,7 @@
                         {
                           "name": "Shape 4",
                           "ioValue": {
-                            "geometry": "move-circle-50-212.5-325-0",
+                            "geometry": "move-circle-50-212.5-387.5-0",
                             "dimension": "2D",
                             "tags": [],
                             "plane": {
@@ -7141,6 +7114,31 @@
                     }
                   ],
                   "fileTypeVersion": 1
+                },
+                {
+                  "atomType": "Move",
+                  "x": 0.5476190476190477,
+                  "y": 0.22841225626740946,
+                  "uniqueID": "id-240338",
+                  "ioValues": [
+                    {
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "xDist",
+                      "ioValue": -60,
+                      "currentEquation": "-60"
+                    },
+                    {
+                      "name": "yDist",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": 0
+                    }
+                  ]
                 }
               ],
               "allConnectors": [
@@ -7170,19 +7168,9 @@
                   "ap2ID": "id-151723"
                 },
                 {
-                  "ap2Name": "Shape 2",
-                  "ap1ID": "id-136603",
-                  "ap2ID": "id-136610"
-                },
-                {
                   "ap2Name": "geometry",
-                  "ap1ID": "id-136610",
-                  "ap2ID": "id-151784"
-                },
-                {
-                  "ap2Name": "Shape 1",
-                  "ap1ID": "id-136625",
-                  "ap2ID": "id-136610"
+                  "ap1ID": "id-136603",
+                  "ap2ID": "id-240338"
                 },
                 {
                   "ap2Name": "geometry",
@@ -7218,6 +7206,16 @@
                   "ap2Name": "geometry",
                   "ap1ID": "id-136500",
                   "ap2ID": "id-136625"
+                },
+                {
+                  "ap2Name": "Shape 2",
+                  "ap1ID": "id-240338",
+                  "ap2ID": "id-136610"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-240338",
+                  "ap2ID": "id-151784"
                 }
               ],
               "fileTypeVersion": 1
@@ -7235,7 +7233,7 @@
                 },
                 {
                   "name": "U_Bolt_Spacing_Y",
-                  "ioValue": 650
+                  "ioValue": 775
                 }
               ],
               "topLevel": false,
@@ -7343,7 +7341,7 @@
                     },
                     {
                       "name": "Length (Y)",
-                      "ioValue": 650
+                      "ioValue": 775
                     }
                   ],
                   "topLevel": false,
@@ -7421,7 +7419,7 @@
                       "ioValues": [
                         {
                           "name": "L",
-                          "ioValue": 650
+                          "ioValue": 775
                         }
                       ],
                       "currentEquation": "L/2"
@@ -7435,7 +7433,7 @@
                       "ioValues": [
                         {
                           "name": "L",
-                          "ioValue": 650
+                          "ioValue": 775
                         }
                       ],
                       "currentEquation": "L/-2"
@@ -7456,7 +7454,7 @@
                         },
                         {
                           "name": "yDist",
-                          "ioValue": 325
+                          "ioValue": 387.5
                         },
                         {
                           "name": "zDist",
@@ -7480,7 +7478,7 @@
                         },
                         {
                           "name": "yDist",
-                          "ioValue": -325
+                          "ioValue": -387.5
                         },
                         {
                           "name": "zDist",
@@ -7504,7 +7502,7 @@
                         },
                         {
                           "name": "yDist",
-                          "ioValue": 325
+                          "ioValue": 387.5
                         },
                         {
                           "name": "zDist",
@@ -7528,7 +7526,7 @@
                         },
                         {
                           "name": "yDist",
-                          "ioValue": -325
+                          "ioValue": -387.5
                         },
                         {
                           "name": "zDist",
@@ -9828,11 +9826,6 @@
               "ap2ID": "id-151777"
             },
             {
-              "ap2Name": "number or geometry",
-              "ap1ID": "id-127814",
-              "ap2ID": "id-117753"
-            },
-            {
               "ap2Name": "Width",
               "ap1ID": "id-127818",
               "ap2ID": "id-127830"
@@ -9886,6 +9879,11 @@
               "ap2Name": "geometry",
               "ap1ID": "id-151777",
               "ap2ID": "id-151781"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-151777",
+              "ap2ID": "id-117753"
             },
             {
               "ap2Name": "geometry",
