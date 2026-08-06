@@ -80,7 +80,12 @@
         }
       ],
       "tag": "Sauna",
-      "tagIndex": 0
+      "tagIndex": 0,
+      "selectedTags": [
+        "Sauna"
+      ],
+      "includeUntagged": false,
+      "notKeepOut": false
     },
     {
       "atomType": "Move",
@@ -6286,7 +6291,7 @@
                             {
                               "name": "Shape 4",
                               "ioValue": {
-                                "geometry": "move#1f514d634dd82c7e4cf6a7c70609efdd",
+                                "geometry": "move-#31e2064c7d5f69d4180079fdefd6e45c",
                                 "dimension": "3D",
                                 "tags": [],
                                 "plane": {
@@ -9767,7 +9772,12 @@
             }
           ],
           "tag": "Sauna",
-          "tagIndex": 0
+          "tagIndex": 0,
+          "selectedTags": [
+            "Sauna"
+          ],
+          "includeUntagged": false,
+          "notKeepOut": false
         },
         {
           "atomType": "GitHubMolecule",
@@ -11715,7 +11725,7 @@
                     {
                       "name": "Shape 2",
                       "ioValue": {
-                        "geometry": "fuse-fuse-fuse#97a8de88d6c16839f04cf00dbce8685b-move-move-rotate-extrude-rectangle-73-41.25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1206-0-90-0--603--20.63-0-0--1816.1-0-move-move-rotate-extrude-rectangle-73-41.25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1206-0-90-0--603--20.63-0-0--2406.65-0",
+                        "geometry": "fuse-fuse-fuse-#97a8de88d6c16839f04cf00dbce8685b-move-move-rotate-extrude-rectangle-73-41.25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1206-0-90-0--603--20.63-0-0--1816.1-0-move-move-rotate-extrude-rectangle-73-41.25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1206-0-90-0--603--20.63-0-0--2406.65-0",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -13601,7 +13611,12 @@
                     }
                   ],
                   "tag": "Chimney Wood",
-                  "tagIndex": 0
+                  "tagIndex": 0,
+                  "selectedTags": [
+                    "Chimney Wood"
+                  ],
+                  "includeUntagged": false,
+                  "notKeepOut": false
                 },
                 {
                   "atomType": "CutLayout",
@@ -15873,7 +15888,12 @@
                         }
                       ],
                       "tag": "Chimney Wood",
-                      "tagIndex": 0
+                      "tagIndex": 0,
+                      "selectedTags": [
+                        "Chimney Wood"
+                      ],
+                      "includeUntagged": false,
+                      "notKeepOut": false
                     },
                     {
                       "atomType": "Input",
@@ -20687,7 +20707,12 @@
                         }
                       ],
                       "tag": "Ring Wood",
-                      "tagIndex": 0
+                      "tagIndex": 0,
+                      "selectedTags": [
+                        "Ring Wood"
+                      ],
+                      "includeUntagged": false,
+                      "notKeepOut": false
                     },
                     {
                       "atomType": "CutLayout",
@@ -23845,7 +23870,12 @@
                     }
                   ],
                   "tag": "Door Frame",
-                  "tagIndex": 0
+                  "tagIndex": 0,
+                  "selectedTags": [
+                    "Door Frame"
+                  ],
+                  "includeUntagged": false,
+                  "notKeepOut": false
                 },
                 {
                   "atomType": "Gcode",
@@ -27597,7 +27627,12 @@
                         }
                       ],
                       "tag": "Plastic",
-                      "tagIndex": 0
+                      "tagIndex": 0,
+                      "selectedTags": [
+                        "Plastic"
+                      ],
+                      "includeUntagged": false,
+                      "notKeepOut": false
                     },
                     {
                       "atomType": "Rotate",
@@ -27889,7 +27924,12 @@
                             }
                           ],
                           "tag": "Plastic",
-                          "tagIndex": 0
+                          "tagIndex": 0,
+                          "selectedTags": [
+                            "Plastic"
+                          ],
+                          "includeUntagged": false,
+                          "notKeepOut": false
                         },
                         {
                           "atomType": "Export",
@@ -32255,7 +32295,12 @@
                         }
                       ],
                       "tag": "End",
-                      "tagIndex": 0
+                      "tagIndex": 0,
+                      "selectedTags": [
+                        "End"
+                      ],
+                      "includeUntagged": false,
+                      "notKeepOut": false
                     },
                     {
                       "atomType": "Molecule",
@@ -32626,7 +32671,12 @@
                             }
                           ],
                           "tag": "End",
-                          "tagIndex": 0
+                          "tagIndex": 0,
+                          "selectedTags": [
+                            "End"
+                          ],
+                          "includeUntagged": false,
+                          "notKeepOut": false
                         },
                         {
                           "atomType": "Rectangle",
@@ -36764,7 +36814,12 @@
                     }
                   ],
                   "tag": "Thick",
-                  "tagIndex": 0
+                  "tagIndex": 0,
+                  "selectedTags": [
+                    "Thick"
+                  ],
+                  "includeUntagged": false,
+                  "notKeepOut": false
                 },
                 {
                   "atomType": "Rotate",
@@ -51215,7 +51270,7 @@
                                 {
                                   "name": "Shape 4",
                                   "ioValue": {
-                                    "geometry": "move#1f514d634dd82c7e4cf6a7c70609efdd",
+                                    "geometry": "move-#31e2064c7d5f69d4180079fdefd6e45c",
                                     "dimension": "3D",
                                     "tags": [],
                                     "plane": {
@@ -55232,7 +55287,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "fuse-move-rotate-extrude-circle-46.99-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-393.7-0-90-0--228.6-0-0-move-rotate-fuse-extrude-cut-circle-150-circle-149.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-fuse-assemblyFuse#9d57bc1b3024ffb52f8e2ca1e3a8dbf2-extrude-circle-42.699999999999996-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-0--90-0--231-0-0",
+                    "geometry": "fuse-move-rotate-extrude-circle-46.99-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-393.7-0-90-0--228.6-0-0-move-rotate-fuse-extrude-circle-42.699999999999996-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-extrude-cut-circle-150-circle-149.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--90-0--231-0-0",
                     "tags": [],
                     "bom": [],
                     "plane": {
@@ -55259,7 +55314,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "cut#6822fb6b0609b42a4488de280db160b6",
+                    "geometry": "cut-#6822fb6b0609b42a4488de280db160b6",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -55943,7 +55998,7 @@
                     {
                       "name": "Shape 1",
                       "ioValue": {
-                        "geometry": "move-rotate-fuse-extrude-cut-circle-150-circle-149.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-fuse-assemblyFuse#9d57bc1b3024ffb52f8e2ca1e3a8dbf2-extrude-circle-42.699999999999996-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-0--90-0--231-0-0",
+                        "geometry": "move-rotate-fuse-extrude-circle-42.699999999999996-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-extrude-cut-circle-150-circle-149.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0--90-0--231-0-0",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -56188,7 +56243,7 @@
                         {
                           "name": "Shape 1",
                           "ioValue": {
-                            "geometry": "assemblyFuse#9d57bc1b3024ffb52f8e2ca1e3a8dbf2",
+                            "geometry": "assemblyFuse-#9d57bc1b3024ffb52f8e2ca1e3a8dbf2",
                             "tags": [],
                             "bom": [],
                             "plane": {
@@ -57166,7 +57221,12 @@
                 }
               ],
               "tag": "Wood",
-              "tagIndex": 0
+              "tagIndex": 0,
+              "selectedTags": [
+                "Wood"
+              ],
+              "includeUntagged": false,
+              "notKeepOut": false
             },
             {
               "atomType": "Gcode",
@@ -73106,7 +73166,7 @@
                             {
                               "name": "Shape 1",
                               "ioValue": {
-                                "geometry": "move-rotate-fuse#57183901becc542bdd483c0019f346ba-0-90-90-0--609.6--200",
+                                "geometry": "move-rotate-fuse-#e69de82ebfd8015d64291df370cf4525-0-90-90-0--609.6--200",
                                 "tags": [],
                                 "bom": [
                                   [],
@@ -73146,7 +73206,7 @@
                             {
                               "name": "Shape 2",
                               "ioValue": {
-                                "geometry": "move-rotate-rotate-fuse#57183901becc542bdd483c0019f346ba-0-90-90-0-0-180-0-609.6--200",
+                                "geometry": "move-rotate-rotate-fuse-#e69de82ebfd8015d64291df370cf4525-0-90-90-0-0-180-0-609.6--200",
                                 "tags": [],
                                 "bom": [
                                   [],
@@ -73186,7 +73246,7 @@
                             {
                               "name": "Shape 3",
                               "ioValue": {
-                                "geometry": "move-rotate-rotate-fuse-extrude-cut-rectangle-400-1219.2-rectangle-394-1213.2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40-180--589.6-0-move-rectangle-40-40-180-589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40--180--589.6-0-move-rectangle-40-40-180--589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse#68ab42d643f20961e9e0757c37b3c81b-0-90-0-0-0-180-1209.2-0--200",
+                                "geometry": "move-rotate-rotate-fuse-extrude-cut-rectangle-400-1219.2-rectangle-394-1213.2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40-180--589.6-0-move-rectangle-40-40-180-589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40--180--589.6-0-move-rectangle-40-40-180--589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse-#68ab42d643f20961e9e0757c37b3c81b-0-90-0-0-0-180-1209.2-0--200",
                                 "tags": [],
                                 "bom": [
                                   [],
@@ -73220,7 +73280,7 @@
                             {
                               "name": "Shape 4",
                               "ioValue": {
-                                "geometry": "move-rotate-fuse-extrude-cut-rectangle-400-1219.2-rectangle-394-1213.2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40-180--589.6-0-move-rectangle-40-40-180-589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40--180--589.6-0-move-rectangle-40-40-180--589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse#68ab42d643f20961e9e0757c37b3c81b-0-90-0--1209.2-0--200",
+                                "geometry": "move-rotate-fuse-extrude-cut-rectangle-400-1219.2-rectangle-394-1213.2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40-180--589.6-0-move-rectangle-40-40-180-589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40--180--589.6-0-move-rectangle-40-40-180--589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse-#68ab42d643f20961e9e0757c37b3c81b-0-90-0--1209.2-0--200",
                                 "tags": [],
                                 "bom": [
                                   [],
@@ -73254,7 +73314,7 @@
                             {
                               "name": "Shape 6",
                               "ioValue": {
-                                "geometry": "move-rotate-fuse-extrude-cut-rectangle-400-1219.2-rectangle-394-1213.2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40-180--589.6-0-move-rectangle-40-40-180-589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40--180--589.6-0-move-rectangle-40-40-180--589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse#68ab42d643f20961e9e0757c37b3c81b-0-90-0-0-0--200",
+                                "geometry": "move-rotate-fuse-extrude-cut-rectangle-400-1219.2-rectangle-394-1213.2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40-180--589.6-0-move-rectangle-40-40-180-589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40--180--589.6-0-move-rectangle-40-40-180--589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse-#68ab42d643f20961e9e0757c37b3c81b-0-90-0-0-0--200",
                                 "tags": [],
                                 "bom": [
                                   [],
@@ -73445,7 +73505,7 @@
                             {
                               "name": "Shape 1",
                               "ioValue": {
-                                "geometry": "move-fuse-extrude-cut-rectangle-400-1219.2-rectangle-394-1213.2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40-180--589.6-0-move-rectangle-40-40-180-589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40--180--589.6-0-move-rectangle-40-40-180--589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse#68ab42d643f20961e9e0757c37b3c81b-0--609.6-0",
+                                "geometry": "move-fuse-extrude-cut-rectangle-400-1219.2-rectangle-394-1213.2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40-180--589.6-0-move-rectangle-40-40-180-589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40--180--589.6-0-move-rectangle-40-40-180--589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse-#68ab42d643f20961e9e0757c37b3c81b-0--609.6-0",
                                 "tags": [],
                                 "bom": [
                                   [],
@@ -73479,7 +73539,7 @@
                             {
                               "name": "Shape 2",
                               "ioValue": {
-                                "geometry": "move-fuse-extrude-cut-rectangle-400-1219.2-rectangle-394-1213.2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40-180--589.6-0-move-rectangle-40-40-180-589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40--180--589.6-0-move-rectangle-40-40-180--589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse#68ab42d643f20961e9e0757c37b3c81b-0-609.6-0",
+                                "geometry": "move-fuse-extrude-cut-rectangle-400-1219.2-rectangle-394-1213.2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40-180--589.6-0-move-rectangle-40-40-180-589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse-extrude-shrinkWrap-fuse-move-rectangle-40-40--180--589.6-0-move-rectangle-40-40-180--589.6-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse-#68ab42d643f20961e9e0757c37b3c81b-0-609.6-0",
                                 "tags": [],
                                 "bom": [
                                   [],
@@ -75355,7 +75415,10 @@
                 }
               ],
               "tag": "Not Keep Out",
-              "tagIndex": 0
+              "tagIndex": 0,
+              "selectedTags": [],
+              "includeUntagged": false,
+              "notKeepOut": true
             },
             {
               "atomType": "Move",
@@ -78692,7 +78755,12 @@
                     }
                   ],
                   "tag": "Plastic",
-                  "tagIndex": 0
+                  "tagIndex": 0,
+                  "selectedTags": [
+                    "Plastic"
+                  ],
+                  "includeUntagged": false,
+                  "notKeepOut": false
                 },
                 {
                   "atomType": "Export",
@@ -81645,7 +81713,12 @@
                     }
                   ],
                   "tag": "Plastic",
-                  "tagIndex": 0
+                  "tagIndex": 0,
+                  "selectedTags": [
+                    "Plastic"
+                  ],
+                  "includeUntagged": false,
+                  "notKeepOut": false
                 },
                 {
                   "atomType": "ExtractTag",
@@ -81660,7 +81733,12 @@
                     }
                   ],
                   "tag": "Plastic",
-                  "tagIndex": 0
+                  "tagIndex": 0,
+                  "selectedTags": [
+                    "Plastic"
+                  ],
+                  "includeUntagged": false,
+                  "notKeepOut": false
                 },
                 {
                   "atomType": "ExtractTag",
@@ -81675,7 +81753,12 @@
                     }
                   ],
                   "tag": "keepout",
-                  "tagIndex": 0
+                  "tagIndex": 0,
+                  "selectedTags": [
+                    "keepout"
+                  ],
+                  "includeUntagged": false,
+                  "notKeepOut": false
                 },
                 {
                   "atomType": "Difference",
@@ -82217,7 +82300,12 @@
                         }
                       ],
                       "tag": "Gear Plastic",
-                      "tagIndex": 0
+                      "tagIndex": 0,
+                      "selectedTags": [
+                        "Gear Plastic"
+                      ],
+                      "includeUntagged": false,
+                      "notKeepOut": false
                     },
                     {
                       "atomType": "Export",
@@ -83543,7 +83631,7 @@
                               "ioValue": {
                                 "geometry": [
                                   {
-                                    "geometry": "move-extrude#3bf9932e74c734eeea2a4457b0bf874c-0-0--50",
+                                    "geometry": "move-extrude-#9194ab81c44745b33e9d3ee9250b68eb-0-0--50",
                                     "dimension": "3D",
                                     "tags": [],
                                     "plane": {
@@ -83567,7 +83655,7 @@
                                     "bom": []
                                   },
                                   {
-                                    "geometry": "move-extrude#68f2c22193976de293633ec601cb98a2-0-0--50",
+                                    "geometry": "move-extrude-#982f5ea27be36fb5184b6b7a350a9dc9-0-0--50",
                                     "dimension": "3D",
                                     "tags": [],
                                     "plane": {
@@ -83591,7 +83679,7 @@
                                     "bom": []
                                   },
                                   {
-                                    "geometry": "move-extrude#d1347781c0e19d5400c273ca4dad1437-0-0--50",
+                                    "geometry": "move-extrude-#5fccab9dd44fc33f3e919d8c372b9a21-0-0--50",
                                     "dimension": "3D",
                                     "tags": [],
                                     "plane": {
@@ -83615,7 +83703,7 @@
                                     "bom": []
                                   },
                                   {
-                                    "geometry": "move-extrude#75342bc27e754b74ba81663a5a060af7-0-0--50",
+                                    "geometry": "move-extrude-#b02a31a6b3266587913e3dcdb8603ceb-0-0--50",
                                     "dimension": "3D",
                                     "tags": [],
                                     "plane": {
@@ -88775,7 +88863,10 @@
                         }
                       ],
                       "tag": "Not Keep Out",
-                      "tagIndex": 0
+                      "tagIndex": 0,
+                      "selectedTags": [],
+                      "includeUntagged": false,
+                      "notKeepOut": true
                     },
                     {
                       "atomType": "Rotate",
@@ -89126,7 +89217,12 @@
                             }
                           ],
                           "tag": "Top Plastic",
-                          "tagIndex": 0
+                          "tagIndex": 0,
+                          "selectedTags": [
+                            "Top Plastic"
+                          ],
+                          "includeUntagged": false,
+                          "notKeepOut": false
                         },
                         {
                           "atomType": "ExtractTag",
@@ -89141,7 +89237,12 @@
                             }
                           ],
                           "tag": "Bottom Plastic",
-                          "tagIndex": 0
+                          "tagIndex": 0,
+                          "selectedTags": [
+                            "Bottom Plastic"
+                          ],
+                          "includeUntagged": false,
+                          "notKeepOut": false
                         },
                         {
                           "atomType": "Export",
@@ -92742,7 +92843,12 @@
                         }
                       ],
                       "tag": "Bottom Plastic",
-                      "tagIndex": 0
+                      "tagIndex": 0,
+                      "selectedTags": [
+                        "Bottom Plastic"
+                      ],
+                      "includeUntagged": false,
+                      "notKeepOut": false
                     },
                     {
                       "atomType": "Circle",
@@ -92851,7 +92957,7 @@
                         {
                           "name": "Shape 4",
                           "ioValue": {
-                            "geometry": "move-cut-move-a7a7e9f8-0-0-0--3-fuse-extrude-circle-14.25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-100-extrude-circle-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--20-0-0-20",
+                            "geometry": "move-cut-move-4380c420-0-0-0--3-fuse-extrude-circle-14.25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-100-extrude-circle-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--20-0-0-20",
                             "color": "#aad7f2",
                             "tags": [],
                             "bom": [],
@@ -92940,7 +93046,12 @@
                         }
                       ],
                       "tag": "Top Plastic",
-                      "tagIndex": 0
+                      "tagIndex": 0,
+                      "selectedTags": [
+                        "Top Plastic"
+                      ],
+                      "includeUntagged": false,
+                      "notKeepOut": false
                     },
                     {
                       "atomType": "Export",
@@ -95313,7 +95424,12 @@
                                 }
                               ],
                               "tag": "Outer Clamp Plastic",
-                              "tagIndex": 0
+                              "tagIndex": 0,
+                              "selectedTags": [
+                                "Outer Clamp Plastic"
+                              ],
+                              "includeUntagged": false,
+                              "notKeepOut": false
                             },
                             {
                               "atomType": "Extrude",
@@ -97328,7 +97444,12 @@
                                 }
                               ],
                               "tag": "Top Plastic",
-                              "tagIndex": 0
+                              "tagIndex": 0,
+                              "selectedTags": [
+                                "Top Plastic"
+                              ],
+                              "includeUntagged": false,
+                              "notKeepOut": false
                             },
                             {
                               "atomType": "ExtractTag",
@@ -97343,7 +97464,12 @@
                                 }
                               ],
                               "tag": "Bottom Plastic",
-                              "tagIndex": 0
+                              "tagIndex": 0,
+                              "selectedTags": [
+                                "Bottom Plastic"
+                              ],
+                              "includeUntagged": false,
+                              "notKeepOut": false
                             },
                             {
                               "atomType": "Export",
