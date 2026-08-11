@@ -63026,7 +63026,7 @@
                             {
                               "name": "Shape 1",
                               "ioValue": {
-                                "geometry": "move-shrinkWrap-fuse-fuse-fuse-move-circle-20-0--55-0-move-circle-20-0-55-0-move-circle-20-0--55-0-move-circle-20-0-55-0-50-150--100-0",
+                                "geometry": "move-shrinkWrap-fuse-move-circle-20-0--55-0-move-circle-20-0-55-0-50-150--100-0",
                                 "dimension": "2D",
                                 "tags": [],
                                 "color": "#aad7f2",
@@ -63057,7 +63057,7 @@
                             {
                               "name": "Shape 3",
                               "ioValue": {
-                                "geometry": "move-move-shrinkWrap-fuse-fuse-fuse-move-circle-20-0--55-0-move-circle-20-0-55-0-move-circle-20-0--55-0-move-circle-20-0-55-0-50-150--100-0-0-190-0",
+                                "geometry": "move-move-shrinkWrap-fuse-move-circle-20-0--55-0-move-circle-20-0-55-0-50-150--100-0-0-190-0",
                                 "dimension": "2D",
                                 "tags": [],
                                 "color": "#aad7f2",
@@ -63088,7 +63088,7 @@
                             {
                               "name": "Shape 4",
                               "ioValue": {
-                                "geometry": "move-rotate-shrinkWrap-fuse-fuse-fuse-move-circle-20-0--55-0-move-circle-20-0-55-0-move-circle-20-0--55-0-move-circle-20-0-55-0-50-0-0-90--30-270-0",
+                                "geometry": "move-rotate-shrinkWrap-fuse-move-circle-20-0--55-0-move-circle-20-0-55-0-50-0-0-90--30-270-0",
                                 "dimension": "2D",
                                 "tags": [],
                                 "color": "#aad7f2",
