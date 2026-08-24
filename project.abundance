@@ -131,8 +131,7 @@
         },
         {
           "name": "z-axis degrees",
-          "ioValue": -90,
-          "currentEquation": "-90"
+          "ioValue": -90
         }
       ]
     },
@@ -148,8 +147,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 5240,
-          "currentEquation": "5240"
+          "ioValue": 5240
         },
         {
           "name": "yDist",
@@ -157,8 +155,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 25,
-          "currentEquation": "25"
+          "ioValue": 25
         }
       ]
     },
