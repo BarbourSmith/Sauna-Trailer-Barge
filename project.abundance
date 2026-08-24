@@ -520,11 +520,7 @@
           "uniqueID": "id-319636",
           "name": "shape",
           "type": "edgeselect",
-          "selectedEdgeData": {
-            "0": [
-              5
-            ]
-          }
+          "selectedEdgeData": {}
         },
         {
           "atomType": "Input",
@@ -978,8 +974,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.09325396825396826,
-      "y": 0.83008356545961,
+      "x": 0.0958994708994709,
+      "y": 0.8161559888579387,
       "uniqueID": "id-306026",
       "name": "Electronics Crate",
       "topLevel": false,
@@ -2175,6 +2171,30 @@
           "unitsKey": "MM",
           "fileTypeVersion": 1,
           "lastReloadedFromGithubAt": 1783123429047
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "x": 0.6931216931216931,
+          "y": 0.7994428969359332,
+          "uniqueID": "id-331792",
+          "name": "Github Molecule",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-331794",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            }
+          ],
+          "allConnectors": [],
+          "fileTypeVersion": 1
         }
       ],
       "allConnectors": [
