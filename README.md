@@ -2,7 +2,7 @@
 
 # Sauna-Trailer-Barge
 
-![](/project.svg)
+![](/project.png)
 
 
 
